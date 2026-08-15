@@ -1,0 +1,590 @@
+{
+    "The Shawshank Redemption": {
+        "genres": [
+            "Drama",
+            "Crime"
+        ],
+        "rating": 5.0,
+        "review": "An inspiring and emotional masterpiece with unforgettable performances.",
+        "review_classification": "Pos"
+    },
+    "The Dark Knight": {
+        "genres": [
+            "Action",
+            "Crime",
+            "Drama"
+        ],
+        "rating": 5.0,
+        "review": "A thrilling superhero film elevated by an iconic villain.",
+        "review_classification": "Pos"
+    },
+    "Inception": {
+        "genres": [
+            "Sci-Fi",
+            "Action",
+            "Thriller"
+        ],
+        "rating": 4.9,
+        "review": "A brilliant mind-bending story that rewards careful attention.",
+        "review_classification": "Pos"
+    },
+    "Interstellar": {
+        "genres": [
+            "Sci-Fi",
+            "Adventure",
+            "Drama"
+        ],
+        "rating": 5.0,
+        "review": "A breathtaking journey through space filled with emotion and wonder.",
+        "review_classification": "Pos"
+    },
+    "The Godfather": {
+        "genres": [
+            "Crime",
+            "Drama"
+        ],
+        "rating": 5.0,
+        "review": "One of the finest crime dramas ever created.",
+        "review_classification": "Neutral"
+    },
+    "Titanic": {
+        "genres": [
+            "Romance",
+            "Drama"
+        ],
+        "rating": 4.8,
+        "review": "A touching love story with spectacular visuals and heartbreaking moments.",
+        "review_classification": "Pos"
+    },
+    "Toy Story": {
+        "genres": [
+            "Animation",
+            "Family",
+            "Adventure"
+        ],
+        "rating": 4.8,
+        "review": "A charming animated classic loved by both kids and adults.",
+        "review_classification": "Pos"
+    },
+    "Finding Nemo": {
+        "genres": [
+            "Animation",
+            "Family",
+            "Comedy"
+        ],
+        "rating": 4.7,
+        "review": "A heartwarming underwater adventure packed with memorable characters.",
+        "review_classification": "Pos"
+    },
+    "The Conjuring": {
+        "genres": [
+            "Horror",
+            "Mystery",
+            "Thriller"
+        ],
+        "rating": 4.6,
+        "review": "Delivers genuine scares with a gripping supernatural story.",
+        "review_classification": "Pos"
+    },
+    "Parasite": {
+        "genres": [
+            "Thriller",
+            "Drama",
+            "Comedy"
+        ],
+        "rating": 4.9,
+        "review": "A clever social commentary that keeps surprising until the end.",
+        "review_classification": "Pos"
+    },
+    "Avengers: Endgame": {
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 4.8,
+        "review": "An epic conclusion that satisfies years of storytelling.",
+        "review_classification": "Pos"
+    },
+    "Joker": {
+        "genres": [
+            "Drama",
+            "Crime",
+            "Thriller"
+        ],
+        "rating": 4.7,
+        "review": "A powerful character study with an outstanding lead performance.",
+        "review_classification": "Pos"
+    },
+    "Frozen": {
+        "genres": [
+            "Animation",
+            "Family",
+            "Musical"
+        ],
+        "rating": 4.4,
+        "review": "Catchy songs and lovable characters make it enjoyable for families.",
+        "review_classification": "Pos"
+    },
+    "The Lion King": {
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Drama"
+        ],
+        "rating": 4.9,
+        "review": "An emotional coming-of-age tale with timeless music.",
+        "review_classification": "Pos"
+    },
+    "The Matrix": {
+        "genres": [
+            "Sci-Fi",
+            "Action"
+        ],
+        "rating": 4.9,
+        "review": "A groundbreaking science fiction film with revolutionary action.",
+        "review_classification": "Pos"
+    },
+    "La La Land": {
+        "genres": [
+            "Musical",
+            "Romance",
+            "Drama"
+        ],
+        "rating": 4.6,
+        "review": "A visually beautiful musical with bittersweet romance.",
+        "review_classification": "Pos"
+    },
+    "1917": {
+        "genres": [
+            "War",
+            "Drama"
+        ],
+        "rating": 4.7,
+        "review": "An intense war film that feels incredibly immersive.",
+        "review_classification": "Neutral"
+    },
+    "Ford v Ferrari": {
+        "genres": [
+            "Sport",
+            "Drama",
+            "Biography"
+        ],
+        "rating": 4.7,
+        "review": "An exciting racing drama driven by excellent performances.",
+        "review_classification": "Pos"
+    },
+    "Schindler's List": {
+        "genres": [
+            "History",
+            "Biography",
+            "Drama"
+        ],
+        "rating": 5.0,
+        "review": "A deeply moving historical film that leaves a lasting impact.",
+        "review_classification": "Neutral"
+    },
+    "The Good, the Bad and the Ugly": {
+        "genres": [
+            "Western",
+            "Adventure"
+        ],
+        "rating": 4.8,
+        "review": "A legendary western featuring unforgettable characters and music.",
+        "review_classification": "Pos"
+    },
+    "The Silence of the Lambs": {
+        "genres": [
+            "Crime",
+            "Thriller",
+            "Mystery"
+        ],
+        "rating": 4.9,
+        "review": "An intelligent thriller with unforgettable suspense and brilliant acting.",
+        "review_classification": "Pos"
+    },
+    "Gladiator": {
+        "genres": [
+            "Action",
+            "Drama",
+            "History"
+        ],
+        "rating": 4.8,
+        "review": "An epic historical adventure that delivers powerful emotions.",
+        "review_classification": "Pos"
+    },
+    "The Notebook": {
+        "genres": [
+            "Romance",
+            "Drama"
+        ],
+        "rating": 4.5,
+        "review": "A sweet romantic drama, although its pacing may feel slow to some viewers.",
+        "review_classification": "Neg"
+    },
+    "Shrek": {
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Family"
+        ],
+        "rating": 4.7,
+        "review": "A hilarious animated film with clever humor for every age.",
+        "review_classification": "Pos"
+    },
+    "Mad Max: Fury Road": {
+        "genres": [
+            "Action",
+            "Adventure",
+            "Sci-Fi"
+        ],
+        "rating": 4.8,
+        "review": "A nonstop action spectacle with breathtaking visuals.",
+        "review_classification": "Pos"
+    },
+    "The Ring": {
+        "genres": [
+            "Horror",
+            "Mystery"
+        ],
+        "rating": 4.3,
+        "review": "The atmosphere is creepy, but the ending may not satisfy everyone.",
+        "review_classification": "Neutral"
+    },
+    "The Prestige": {
+        "genres": [
+            "Mystery",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 4.8,
+        "review": "A fascinating mystery filled with clever twists.",
+        "review_classification": "Pos"
+    },
+    "Pirates of the Caribbean": {
+        "genres": [
+            "Adventure",
+            "Fantasy",
+            "Action"
+        ],
+        "rating": 4.7,
+        "review": "An entertaining pirate adventure led by a memorable cast.",
+        "review_classification": "Pos"
+    },
+    "The Hangover": {
+        "genres": [
+            "Comedy",
+            "Adventure",
+            "Crime"
+        ],
+        "rating": 4.4,
+        "review": "Packed with outrageous comedy, though some jokes feel dated.",
+        "review_classification": "Neutral"
+    },
+    "A Quiet Place": {
+        "genres": [
+            "Horror",
+            "Drama",
+            "Sci-Fi"
+        ],
+        "rating": 4.6,
+        "review": "Creative storytelling and constant tension make it highly engaging.",
+        "review_classification": "Neutral"
+    },
+    "The Social Network": {
+        "genres": [
+            "Biography",
+            "Drama"
+        ],
+        "rating": 4.7,
+        "review": "A sharp and well-written portrayal of ambition and innovation.",
+        "review_classification": "Pos"
+    },
+    "The Wolf of Wall Street": {
+        "genres": [
+            "Biography",
+            "Comedy",
+            "Crime"
+        ],
+        "rating": 4.7,
+        "review": "Wildly entertaining, but its long runtime can feel excessive.",
+        "review_classification": "Neutral"
+    },
+    "The Nun": {
+        "genres": [
+            "Horror",
+            "Mystery"
+        ],
+        "rating": 3.4,
+        "review": "The visuals are impressive, but the story lacks originality.",
+        "review_classification": "Neg"
+    },
+    "Fantastic Beasts": {
+        "genres": [
+            "Fantasy",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 4.1,
+        "review": "An enjoyable fantasy adventure, even if it doesn't reach Harry Potter's heights.",
+        "review_classification": "Pos"
+    },
+    "Up": {
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 4.9,
+        "review": "An emotional adventure with one of animation's best openings.",
+        "review_classification": "Pos"
+    },
+    "Braveheart": {
+        "genres": [
+            "History",
+            "War",
+            "Drama"
+        ],
+        "rating": 4.7,
+        "review": "An inspiring historical epic filled with memorable battles.",
+        "review_classification": "Pos"
+    },
+    "The Emoji Movie": {
+        "genres": [
+            "Animation",
+            "Comedy",
+            "Family"
+        ],
+        "rating": 2.1,
+        "review": "The colorful visuals cannot hide the weak storytelling.",
+        "review_classification": "Neg"
+    },
+    "Cats": {
+        "genres": [
+            "Musical",
+            "Fantasy"
+        ],
+        "rating": 1.8,
+        "review": "Strange visual effects and a confusing plot make it difficult to enjoy.",
+        "review_classification": "Neg"
+    },
+    "Morbius": {
+        "genres": [
+            "Action",
+            "Sci-Fi",
+            "Horror"
+        ],
+        "rating": 2.7,
+        "review": "Interesting ideas are overshadowed by an underwhelming script.",
+        "review_classification": "Neg"
+    },
+    "The Last Airbender": {
+        "genres": [
+            "Fantasy",
+            "Adventure",
+            "Action"
+        ],
+        "rating": 1.9,
+        "review": "Despite its source material, the adaptation feels disappointing.",
+        "review_classification": "Neutral"
+    },
+    "The Truman Show": {
+        "genres": [
+            "Drama",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "rating": 4.8,
+        "review": "A thought-provoking story that remains surprisingly relevant today.",
+        "review_classification": "Pos"
+    },
+    "Whiplash": {
+        "genres": [
+            "Drama",
+            "Music"
+        ],
+        "rating": 4.9,
+        "review": "An intense and unforgettable film driven by phenomenal performances.",
+        "review_classification": "Pos"
+    },
+    "The Grand Budapest Hotel": {
+        "genres": [
+            "Comedy",
+            "Adventure",
+            "Crime"
+        ],
+        "rating": 4.7,
+        "review": "Its unique style and witty humor make every scene enjoyable.",
+        "review_classification": "Pos"
+    },
+    "Knives Out": {
+        "genres": [
+            "Mystery",
+            "Comedy",
+            "Crime"
+        ],
+        "rating": 4.8,
+        "review": "A clever detective story filled with entertaining twists.",
+        "review_classification": "Pos"
+    },
+    "The Revenant": {
+        "genres": [
+            "Adventure",
+            "Drama",
+            "Thriller"
+        ],
+        "rating": 4.7,
+        "review": "Stunning cinematography and powerful acting create an unforgettable experience.",
+        "review_classification": "Pos"
+    },
+    "Zombieland": {
+        "genres": [
+            "Comedy",
+            "Horror",
+            "Action"
+        ],
+        "rating": 4.4,
+        "review": "A fun mix of zombie action and comedy that rarely slows down.",
+        "review_classification": "Pos"
+    },
+    "Train to Busan": {
+        "genres": [
+            "Horror",
+            "Action",
+            "Thriller"
+        ],
+        "rating": 4.8,
+        "review": "An emotional zombie thriller packed with suspense.",
+        "review_classification": "Pos"
+    },
+    "John Wick": {
+        "genres": [
+            "Action",
+            "Crime",
+            "Thriller"
+        ],
+        "rating": 4.7,
+        "review": "Stylish action sequences make this an exciting watch.",
+        "review_classification": "Pos"
+    },
+    "The Imitation Game": {
+        "genres": [
+            "Biography",
+            "Drama",
+            "History"
+        ],
+        "rating": 4.7,
+        "review": "A fascinating historical drama about one of computing's greatest minds.",
+        "review_classification": "Pos"
+    },
+    "Your Name": {
+        "genres": [
+            "Animation",
+            "Romance",
+            "Fantasy"
+        ],
+        "rating": 4.9,
+        "review": "Beautiful animation and heartfelt storytelling leave a lasting impression.",
+        "review_classification": "Neutral"
+    },
+    "Weathering With You": {
+        "genres": [
+            "Animation",
+            "Fantasy",
+            "Romance"
+        ],
+        "rating": 4.6,
+        "review": "The visuals are gorgeous, though the plot occasionally feels predictable.",
+        "review_classification": "Neutral"
+    },
+    "Mulan": {
+        "genres": [
+            "Animation",
+            "Adventure",
+            "Family"
+        ],
+        "rating": 4.5,
+        "review": "An inspiring tale with memorable songs and lovable characters.",
+        "review_classification": "Pos"
+    },
+    "Free Guy": {
+        "genres": [
+            "Action",
+            "Comedy",
+            "Sci-Fi"
+        ],
+        "rating": 4.3,
+        "review": "A fun concept that delivers plenty of laughs and action.",
+        "review_classification": "Pos"
+    },
+    "Moonfall": {
+        "genres": [
+            "Sci-Fi",
+            "Adventure",
+            "Disaster"
+        ],
+        "rating": 2.8,
+        "review": "The visual effects impress, but the story struggles to stay convincing.",
+        "review_classification": "Neg"
+    },
+    "Green Book": {
+        "genres": [
+            "Drama",
+            "Biography",
+            "Comedy"
+        ],
+        "rating": 4.8,
+        "review": "A heartfelt road-trip story featuring outstanding chemistry between its leads.",
+        "review_classification": "Pos"
+    },
+    "The Room": {
+        "genres": [
+            "Drama",
+            "Romance",
+            "Psychological"
+        ],
+        "rating": 1.6,
+        "review": "Poor acting and awkward dialogue make it unintentionally funny.",
+        "review_classification": "Neg"
+    },
+    "Dragon Ball Super: Broly": {
+        "genres": [
+            "Animation",
+            "Action",
+            "Fantasy"
+        ],
+        "rating": 4.7,
+        "review": "Fantastic animation delivers thrilling battles from start to finish.",
+        "review_classification": "Pos"
+    },
+    "Detective Pikachu": {
+        "genres": [
+            "Adventure",
+            "Comedy",
+            "Family"
+        ],
+        "rating": 4.2,
+        "review": "An enjoyable family film with charming Pokémon characters.",
+        "review_classification": "Pos"
+    },
+    "Resident Evil": {
+        "genres": [
+            "Action",
+            "Horror",
+            "Sci-Fi"
+        ],
+        "rating": 3.8,
+        "review": "The action is entertaining, although the plot is fairly average.",
+        "review_classification": "Neg"
+    },
+    "Pixels": {
+        "genres": [
+            "Comedy",
+            "Sci-Fi",
+            "Action"
+        ],
+        "rating": 2.9,
+        "review": "A nostalgic premise is let down by inconsistent humor.",
+        "review_classification": "Neg"
+    }
+}

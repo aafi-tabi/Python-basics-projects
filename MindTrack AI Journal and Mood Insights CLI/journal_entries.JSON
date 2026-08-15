@@ -1,0 +1,908 @@
+{
+    "1": {
+        "1_1": {
+            "date": "2026-07-01",
+            "time_stamp": "10:15:00",
+            "title": "A Productive Start",
+            "journal": "Today I finally finished the project I had been working on. I felt really happy and motivated because everything went better than I expected.",
+            "mood_score": 9
+        },
+        "1_2": {
+            "date": "2026-07-04",
+            "time_stamp": "18:30:00",
+            "title": "Quiet Evening",
+            "journal": "I spent the evening at home listening to music and thinking about my goals. It was peaceful and I felt calm.",
+            "mood_score": 8
+        },
+        "1_3": {
+            "date": "2026-07-08",
+            "time_stamp": "21:10:00",
+            "title": "Small Wins",
+            "journal": "I managed to complete several small tasks today. They were not huge achievements, but finishing them made me feel good.",
+            "mood_score": 8
+        }
+    },
+    "2": {
+        "2_1": {
+            "date": "2026-07-02",
+            "time_stamp": "14:20:00",
+            "title": "A Difficult Day",
+            "journal": "Today was quite stressful. I had several things to finish and felt overwhelmed for most of the afternoon.",
+            "mood_score": 3
+        },
+        "2_2": {
+            "date": "2026-07-06",
+            "time_stamp": "20:10:00",
+            "title": "Things Got Better",
+            "journal": "The day started badly, but things slowly improved. I talked with a friend and felt much better afterward.",
+            "mood_score": 7
+        }
+    },
+    "3": {
+        "3_1": {
+            "date": "2026-07-03",
+            "time_stamp": "09:45:00",
+            "title": "Fresh Morning",
+            "journal": "I woke up early today and went for a short walk. The fresh air helped me feel energetic and ready for the day.",
+            "mood_score": 8
+        },
+        "3_2": {
+            "date": "2026-07-07",
+            "time_stamp": "19:25:00",
+            "title": "Unexpected Problem",
+            "journal": "Something went wrong with my plans today. I was frustrated at first, but I tried to stay patient and solve the problem.",
+            "mood_score": 5
+        },
+        "3_3": {
+            "date": "2026-07-11",
+            "time_stamp": "22:05:00",
+            "title": "Feeling Better",
+            "journal": "I had a much better day today. I finished my work and spent some time doing something I enjoy.",
+            "mood_score": 8
+        },
+        "3_4": {
+            "date": "2026-07-15",
+            "time_stamp": "20:40:00",
+            "title": "A Good Memory",
+            "journal": "I remembered an old moment that made me smile. It reminded me that some simple memories can make an ordinary day special.",
+            "mood_score": 9
+        },
+        "3_5": {
+            "date": "2026-08-08/08/26",
+            "time_stamp": "09:27:54",
+            "title": "Learning Something New",
+            "journal": "Today I learned something new that I had been struggling with for a while. At first, I didn't understand it, but after practicing several times, things finally started making sense. It reminded me that I can improve if I stay patient.",
+            "mood_score": 9.0
+        }
+    },
+    "4": {
+        "4_1": {
+            "date": "2026-07-04",
+            "time_stamp": "16:20:00",
+            "title": "Learning Something New",
+            "journal": "I spent several hours learning something new today. It was difficult at first, but I slowly started understanding it.",
+            "mood_score": 8
+        },
+        "4_2": {
+            "date": "2026-07-10",
+            "time_stamp": "21:35:00",
+            "title": "Long Day",
+            "journal": "Today felt longer than usual. I was tired by the evening and decided to rest instead of forcing myself to keep working.",
+            "mood_score": 5
+        }
+    },
+    "5": {
+        "5_1": {
+            "date": "2026-07-05",
+            "time_stamp": "11:10:00",
+            "title": "A Happy Surprise",
+            "journal": "Something unexpected happened today and it made me genuinely happy. I spent the rest of the day in a really positive mood.",
+            "mood_score": 9
+        },
+        "5_2": {
+            "date": "2026-07-09",
+            "time_stamp": "17:45:00",
+            "title": "Busy Afternoon",
+            "journal": "I had many things to do today and felt a little stressed. Still, I managed to finish most of my responsibilities.",
+            "mood_score": 6
+        },
+        "5_3": {
+            "date": "2026-07-14",
+            "time_stamp": "20:15:00",
+            "title": "Relaxing Night",
+            "journal": "I stayed home tonight and watched a movie. It was nice to slow down and enjoy some quiet time.",
+            "mood_score": 8
+        },
+        "5_4": {
+            "date": "2026-07-20",
+            "time_stamp": "22:00:00",
+            "title": "Thinking About Goals",
+            "journal": "I spent some time thinking about what I want to accomplish this year. I feel hopeful about the future.",
+            "mood_score": 8
+        },
+        "5_5": {
+            "date": "2026-07-25",
+            "time_stamp": "19:30:00",
+            "title": "A Tired Day",
+            "journal": "I felt tired today and did not have much energy. I decided to take things slowly and give myself some rest.",
+            "mood_score": 5
+        }
+    },
+    "6": {
+        "6_1": {
+            "date": "2026-07-06",
+            "time_stamp": "13:25:00",
+            "title": "Feeling Grateful",
+            "journal": "I thought about the people who have supported me recently. I feel grateful for having good people around me.",
+            "mood_score": 9
+        },
+        "6_2": {
+            "date": "2026-07-12",
+            "time_stamp": "18:50:00",
+            "title": "A Calm Day",
+            "journal": "Nothing unusual happened today, but that was actually nice. I enjoyed having a simple and peaceful day.",
+            "mood_score": 8
+        }
+    },
+    "7": {
+        "7_1": {
+            "date": "2026-07-07",
+            "time_stamp": "08:40:00",
+            "title": "Early Start",
+            "journal": "I started my morning earlier than usual. Getting things done early made the rest of the day feel easier.",
+            "mood_score": 8
+        },
+        "7_2": {
+            "date": "2026-07-13",
+            "time_stamp": "20:25:00",
+            "title": "A Little Stress",
+            "journal": "I had a few problems to deal with today. I felt stressed for a while, but eventually everything became manageable.",
+            "mood_score": 5
+        },
+        "7_3": {
+            "date": "2026-07-18",
+            "time_stamp": "21:45:00",
+            "title": "Weekend Mood",
+            "journal": "I had time to relax and enjoy my weekend. I listened to music and felt completely refreshed.",
+            "mood_score": 9
+        }
+    },
+    "8": {
+        "8_1": {
+            "date": "2026-07-08",
+            "time_stamp": "17:15:00",
+            "title": "Creative Energy",
+            "journal": "I spent some time working on a creative idea today. It felt exciting to see something slowly come together.",
+            "mood_score": 9
+        },
+        "8_2": {
+            "date": "2026-07-16",
+            "time_stamp": "19:20:00",
+            "title": "Quiet Thoughts",
+            "journal": "I spent the evening thinking about recent changes in my life. I am still figuring things out, but I feel hopeful.",
+            "mood_score": 7
+        }
+    },
+    "9": {
+        "9_1": {
+            "date": "2026-07-09",
+            "time_stamp": "12:50:00",
+            "title": "A Normal Day",
+            "journal": "Today was mostly ordinary. I completed my responsibilities and had a little time to relax.",
+            "mood_score": 6
+        },
+        "9_2": {
+            "date": "2026-07-17",
+            "time_stamp": "21:15:00",
+            "title": "Feeling Proud",
+            "journal": "I accomplished something I had been putting off for a long time. I am proud that I finally got it done.",
+            "mood_score": 9
+        },
+        "9_3": {
+            "date": "2026-07-23",
+            "time_stamp": "18:40:00",
+            "title": "A Rainy Evening",
+            "journal": "The weather was rainy today, so I stayed inside. The sound of rain made the evening feel peaceful.",
+            "mood_score": 8
+        }
+    },
+    "10": {
+        "10_1": {
+            "date": "2026-07-10",
+            "time_stamp": "15:35:00",
+            "title": "A Good Conversation",
+            "journal": "I had a really good conversation with someone today. It helped me understand something I had been worrying about.",
+            "mood_score": 8
+        },
+        "10_2": {
+            "date": "2026-07-19",
+            "time_stamp": "20:05:00",
+            "title": "Feeling Motivated",
+            "journal": "I made a new plan for my goals today. Writing everything down made me feel motivated to start.",
+            "mood_score": 9
+        }
+    },
+    "11": {
+        "11_1": {
+            "date": "2026-07-11",
+            "time_stamp": "10:20:00",
+            "title": "Focused Morning",
+            "journal": "I stayed focused throughout the morning and completed more work than I expected. It felt satisfying.",
+            "mood_score": 9
+        }
+    },
+    "12": {
+        "12_1": {
+            "date": "2026-07-12",
+            "time_stamp": "09:10:00",
+            "title": "Slow Morning",
+            "journal": "I had a slow start today. I was tired when I woke up, but eventually I felt better.",
+            "mood_score": 6
+        },
+        "12_2": {
+            "date": "2026-07-21",
+            "time_stamp": "19:35:00",
+            "title": "Better Evening",
+            "journal": "The evening was much nicer than the morning. I spent time with family and felt relaxed.",
+            "mood_score": 8
+        }
+    },
+    "13": {
+        "13_1": {
+            "date": "2026-07-13",
+            "time_stamp": "14:45:00",
+            "title": "A New Opportunity",
+            "journal": "I came across an interesting opportunity today. I am excited about what it could lead to.",
+            "mood_score": 9
+        },
+        "13_2": {
+            "date": "2026-07-22",
+            "time_stamp": "21:00:00",
+            "title": "Planning Ahead",
+            "journal": "I spent the evening organizing my plans for the next few weeks. I feel prepared and hopeful.",
+            "mood_score": 8
+        },
+        "13_3": {
+            "date": "2026-07-28",
+            "time_stamp": "18:25:00",
+            "title": "Unexpected Delay",
+            "journal": "One of my plans was delayed today. I was disappointed, but I reminded myself that some things take time.",
+            "mood_score": 5
+        }
+    },
+    "14": {
+        "14_1": {
+            "date": "2026-07-14",
+            "time_stamp": "11:30:00",
+            "title": "Good Progress",
+            "journal": "I made good progress on something important today. Seeing the results made me feel confident.",
+            "mood_score": 9
+        },
+        "14_2": {
+            "date": "2026-07-24",
+            "time_stamp": "20:30:00",
+            "title": "Peaceful Night",
+            "journal": "I had a peaceful night and finally got some time to myself. It felt good to slow down.",
+            "mood_score": 8
+        }
+    },
+    "15": {
+        "15_1": {
+            "date": "2026-07-15",
+            "time_stamp": "16:05:00",
+            "title": "Learning From Mistakes",
+            "journal": "I made a mistake today, but instead of getting upset I tried to understand what went wrong. I learned something useful.",
+            "mood_score": 7
+        },
+        "15_2": {
+            "date": "2026-07-26",
+            "time_stamp": "19:45:00",
+            "title": "Feeling Positive",
+            "journal": "Today ended on a positive note. I feel more confident about handling problems when they appear.",
+            "mood_score": 8
+        }
+    },
+    "16": {
+        "16_1": {
+            "date": "2026-07-16",
+            "time_stamp": "08:55:00",
+            "title": "Morning Motivation",
+            "journal": "I woke up feeling motivated today. I wrote down my priorities and started working without wasting much time.",
+            "mood_score": 9
+        },
+        "16_2": {
+            "date": "2026-07-29",
+            "time_stamp": "22:15:00",
+            "title": "A Long Evening",
+            "journal": "I had a lot on my mind tonight. I felt tired, so I decided to stop working and get some rest.",
+            "mood_score": 5
+        }
+    },
+    "17": {
+        "17_1": {
+            "date": "2026-07-17",
+            "time_stamp": "13:40:00",
+            "title": "A Fun Afternoon",
+            "journal": "I spent the afternoon doing something I really enjoy. I laughed a lot and felt genuinely happy.",
+            "mood_score": 10
+        },
+        "17_2": {
+            "date": "2026-07-25",
+            "time_stamp": "20:20:00",
+            "title": "Reflecting",
+            "journal": "I thought about how much I have changed recently. I still have things to improve, but I am proud of my progress.",
+            "mood_score": 9
+        },
+        "17_3": {
+            "date": "2026-07-30",
+            "time_stamp": "18:10:00",
+            "title": "A Challenging Task",
+            "journal": "The task I worked on today was harder than expected. I became frustrated but kept trying until I understood it.",
+            "mood_score": 6
+        }
+    },
+    "18": {
+        "18_1": {
+            "date": "2026-07-18",
+            "time_stamp": "10:05:00",
+            "title": "A Fresh Perspective",
+            "journal": "I looked at an old problem differently today and suddenly found a possible solution. I felt excited and hopeful.",
+            "mood_score": 9
+        }
+    },
+    "19": {
+        "19_1": {
+            "date": "2026-07-19",
+            "time_stamp": "15:20:00",
+            "title": "A Busy Day",
+            "journal": "There were many things happening today. I was busy for most of the day but felt satisfied after finishing everything.",
+            "mood_score": 7
+        },
+        "19_2": {
+            "date": "2026-07-27",
+            "time_stamp": "21:30:00",
+            "title": "Resting",
+            "journal": "I decided not to push myself today. Resting felt necessary, and I feel more comfortable after taking a break.",
+            "mood_score": 7
+        }
+    },
+    "20": {
+        "20_1": {
+            "date": "2026-07-20",
+            "time_stamp": "12:15:00",
+            "title": "A Simple Day",
+            "journal": "Nothing dramatic happened today. I enjoyed a simple routine and felt comfortable with how the day went.",
+            "mood_score": 7
+        },
+        "20_2": {
+            "date": "2026-07-31",
+            "time_stamp": "19:50:00",
+            "title": "Looking Forward",
+            "journal": "I have something exciting coming up soon. Thinking about it makes me feel hopeful and energetic.",
+            "mood_score": 9
+        }
+    },
+    "21": {
+        "21_1": {
+            "date": "2026-07-21",
+            "time_stamp": "09:35:00",
+            "title": "A Strong Start",
+            "journal": "I started the day with clear goals and managed to stay focused. I felt productive and confident.",
+            "mood_score": 9
+        },
+        "21_2": {
+            "date": "2026-07-26",
+            "time_stamp": "22:05:00",
+            "title": "Quiet Thoughts",
+            "journal": "Tonight I thought about some decisions I need to make. I do not have all the answers yet, but I feel calm about it.",
+            "mood_score": 7
+        }
+    },
+    "22": {
+        "22_1": {
+            "date": "2026-07-22",
+            "time_stamp": "14:10:00",
+            "title": "A Helpful Friend",
+            "journal": "A friend helped me understand something difficult today. I felt grateful and much less worried afterward.",
+            "mood_score": 9
+        },
+        "22_2": {
+            "date": "2026-07-29",
+            "time_stamp": "20:45:00",
+            "title": "A Small Disappointment",
+            "journal": "Something I expected did not happen today. I felt disappointed for a while, but I am trying to stay positive.",
+            "mood_score": 5
+        },
+        "22_3": {
+            "date": "2026-07-31",
+            "time_stamp": "21:15:00",
+            "title": "Ending Well",
+            "journal": "The day ended better than it started. I spent some time relaxing and now I feel much more peaceful.",
+            "mood_score": 8
+        }
+    },
+    "23": {
+        "23_1": {
+            "date": "2026-07-23",
+            "time_stamp": "11:45:00",
+            "title": "Getting Things Done",
+            "journal": "I had a productive morning and completed several tasks. I feel good knowing that I made progress.",
+            "mood_score": 8
+        }
+    },
+    "24": {
+        "24_1": {
+            "date": "2026-07-24",
+            "time_stamp": "16:30:00",
+            "title": "A Difficult Conversation",
+            "journal": "I had a difficult conversation today. It was uncomfortable, but I am glad I was honest about how I felt.",
+            "mood_score": 6
+        },
+        "24_2": {
+            "date": "2026-07-30",
+            "time_stamp": "20:00:00",
+            "title": "Feeling Relieved",
+            "journal": "The situation I was worried about has finally been resolved. I feel relieved and much calmer now.",
+            "mood_score": 8
+        }
+    },
+    "25": {
+        "25_1": {
+            "date": "2026-07-25",
+            "time_stamp": "10:50:00",
+            "title": "A Fresh Goal",
+            "journal": "I decided on a new goal today. It feels challenging, but I am excited to work toward it.",
+            "mood_score": 9
+        },
+        "25_2": {
+            "date": "2026-07-28",
+            "time_stamp": "19:15:00",
+            "title": "Slow Progress",
+            "journal": "Things are moving more slowly than I wanted, but at least I am still making progress.",
+            "mood_score": 7
+        },
+        "25_3": {
+            "date": "2026-07-31",
+            "time_stamp": "22:20:00",
+            "title": "Satisfied",
+            "journal": "I looked back at what I accomplished this week. I feel satisfied with the effort I put in.",
+            "mood_score": 9
+        }
+    },
+    "26": {
+        "26_1": {
+            "date": "2026-07-26",
+            "time_stamp": "13:15:00",
+            "title": "A Calm Afternoon",
+            "journal": "The afternoon was quiet and comfortable. I had enough time to finish my work without feeling rushed.",
+            "mood_score": 8
+        },
+        "26_2": {
+            "date": "2026-07-31",
+            "time_stamp": "18:45:00",
+            "title": "Good News",
+            "journal": "I received some good news today. It immediately improved my mood and gave me more confidence.",
+            "mood_score": 9
+        }
+    },
+    "27": {
+        "27_1": {
+            "date": "2026-07-27",
+            "time_stamp": "09:25:00",
+            "title": "Morning Walk",
+            "journal": "I went outside for a short walk this morning. The fresh air helped clear my thoughts and made me feel relaxed.",
+            "mood_score": 8
+        }
+    },
+    "28": {
+        "28_1": {
+            "date": "2026-07-28",
+            "time_stamp": "15:40:00",
+            "title": "Too Much Work",
+            "journal": "I had more work than I expected today. I became stressed and tired, so I took several short breaks.",
+            "mood_score": 4
+        },
+        "28_2": {
+            "date": "2026-07-30",
+            "time_stamp": "21:05:00",
+            "title": "Recovering",
+            "journal": "I took some time to rest today and feel much better now. Sometimes taking a break is exactly what I need.",
+            "mood_score": 7
+        }
+    },
+    "29": {
+        "29_1": {
+            "date": "2026-07-29",
+            "time_stamp": "11:20:00",
+            "title": "Feeling Confident",
+            "journal": "I handled a difficult task without giving up. I feel more confident in my abilities after today.",
+            "mood_score": 9
+        },
+        "29_2": {
+            "date": "2026-07-31",
+            "time_stamp": "19:40:00",
+            "title": "A Peaceful Moment",
+            "journal": "I sat quietly for a while and listened to music. It was a small moment, but it made me feel peaceful.",
+            "mood_score": 8
+        }
+    },
+    "30": {
+        "30_1": {
+            "date": "2026-07-30",
+            "time_stamp": "17:05:00",
+            "title": "A Productive Evening",
+            "journal": "I completed several tasks this evening. I was tired, but finishing everything gave me a strong sense of accomplishment.",
+            "mood_score": 8
+        }
+    },
+    "31": {
+        "31_1": {
+            "date": "2026-07-01",
+            "time_stamp": "12:40:00",
+            "title": "New Beginnings",
+            "journal": "Today felt like a fresh beginning. I have several plans for the future and feel excited about starting them.",
+            "mood_score": 9
+        },
+        "31_2": {
+            "date": "2026-07-08",
+            "time_stamp": "18:10:00",
+            "title": "A Little Uncertain",
+            "journal": "I am not completely sure whether I am making the right decision. Still, I am trying to trust myself.",
+            "mood_score": 6
+        },
+        "31_3": {
+            "date": "2026-07-19",
+            "time_stamp": "21:25:00",
+            "title": "Feeling Hopeful",
+            "journal": "Things are slowly becoming clearer. I feel more hopeful than I did a few weeks ago.",
+            "mood_score": 8
+        },
+        "31_4": {
+            "date": "2026-07-29",
+            "time_stamp": "20:15:00",
+            "title": "Proud of Myself",
+            "journal": "I looked back at everything I managed to accomplish. I am genuinely proud of how far I have come.",
+            "mood_score": 10
+        }
+    },
+    "32": {
+        "32_1": {
+            "date": "2026-07-02",
+            "time_stamp": "10:30:00",
+            "title": "A Busy Morning",
+            "journal": "My morning was extremely busy. I had several responsibilities and barely had time to rest.",
+            "mood_score": 5
+        },
+        "32_2": {
+            "date": "2026-07-17",
+            "time_stamp": "19:10:00",
+            "title": "Finally Relaxing",
+            "journal": "After a long week, I finally had some free time. I watched something funny and felt much more relaxed.",
+            "mood_score": 8
+        }
+    },
+    "33": {
+        "33_1": {
+            "date": "2026-07-03",
+            "time_stamp": "14:55:00",
+            "title": "Good News",
+            "journal": "I heard some wonderful news today. I could not stop smiling and spent the rest of the afternoon feeling excited.",
+            "mood_score": 10
+        }
+    },
+    "34": {
+        "34_1": {
+            "date": "2026-07-04",
+            "time_stamp": "09:20:00",
+            "title": "A Heavy Morning",
+            "journal": "I woke up feeling low today. Nothing specific happened, but I had very little energy and wanted to stay alone.",
+            "mood_score": 3
+        },
+        "34_2": {
+            "date": "2026-07-12",
+            "time_stamp": "20:40:00",
+            "title": "Talking Helped",
+            "journal": "I talked to someone I trust about how I had been feeling. It helped more than I expected.",
+            "mood_score": 7
+        },
+        "34_3": {
+            "date": "2026-07-23",
+            "time_stamp": "18:30:00",
+            "title": "A Better Week",
+            "journal": "This week has been much better. I have been sleeping well and finding more reasons to smile.",
+            "mood_score": 9
+        }
+    },
+    "35": {
+        "35_1": {
+            "date": "2026-07-05",
+            "time_stamp": "16:45:00",
+            "title": "Trying Again",
+            "journal": "Something did not work out yesterday, so I decided to try again today. I feel proud that I did not give up.",
+            "mood_score": 8
+        },
+        "35_2": {
+            "date": "2026-07-18",
+            "time_stamp": "21:00:00",
+            "title": "Small Achievement",
+            "journal": "I reached a small goal today. It may not seem important to anyone else, but it means a lot to me.",
+            "mood_score": 9
+        }
+    },
+    "36": {
+        "36_1": {
+            "date": "2026-07-06",
+            "time_stamp": "11:35:00",
+            "title": "Feeling Tired",
+            "journal": "I did not sleep very well last night and felt tired throughout the day. I hope tomorrow feels easier.",
+            "mood_score": 4
+        }
+    },
+    "37": {
+        "37_1": {
+            "date": "2026-07-07",
+            "time_stamp": "13:50:00",
+            "title": "A Creative Idea",
+            "journal": "I suddenly got a creative idea today and immediately started writing down everything I could think of.",
+            "mood_score": 9
+        },
+        "37_2": {
+            "date": "2026-07-20",
+            "time_stamp": "20:30:00",
+            "title": "Making Progress",
+            "journal": "The idea I had earlier is slowly becoming something real. I am excited to see where it goes.",
+            "mood_score": 9
+        },
+        "37_3": {
+            "date": "2026-07-30",
+            "time_stamp": "22:10:00",
+            "title": "Feeling Accomplished",
+            "journal": "I finished an important part of my project tonight. I feel proud and motivated to continue.",
+            "mood_score": 9
+        }
+    },
+    "38": {
+        "38_1": {
+            "date": "2026-07-08",
+            "time_stamp": "08:30:00",
+            "title": "Peaceful Morning",
+            "journal": "The morning was quiet and peaceful. I enjoyed my breakfast and took some time before starting work.",
+            "mood_score": 8
+        },
+        "38_2": {
+            "date": "2026-07-24",
+            "time_stamp": "19:25:00",
+            "title": "A Good Evening",
+            "journal": "I spent the evening with people I care about. We talked, laughed, and had a really good time.",
+            "mood_score": 9
+        }
+    },
+    "39": {
+        "39_1": {
+            "date": "2026-07-09",
+            "time_stamp": "15:15:00",
+            "title": "A Challenging Start",
+            "journal": "The morning was frustrating because several things went wrong. I tried to stay patient and eventually solved most of them.",
+            "mood_score": 5
+        },
+        "39_2": {
+            "date": "2026-07-16",
+            "time_stamp": "21:40:00",
+            "title": "Feeling Calm",
+            "journal": "Tonight I finally feel calm. I put my phone away for a while and spent some quiet time thinking.",
+            "mood_score": 8
+        },
+        "39_3": {
+            "date": "2026-07-28",
+            "time_stamp": "18:55:00",
+            "title": "A Positive Change",
+            "journal": "I noticed a positive change in my routine today. I have been taking better care of my time and energy.",
+            "mood_score": 9
+        },
+        "39_4": {
+            "date": "2026-07-31",
+            "time_stamp": "22:30:00",
+            "title": "Grateful Tonight",
+            "journal": "Before sleeping, I thought about everything I am grateful for. There are many more good things in my life than I sometimes notice.",
+            "mood_score": 10
+        }
+    },
+    "40": {
+        "40_1": {
+            "date": "2026-07-10",
+            "time_stamp": "10:45:00",
+            "title": "Organizing My Day",
+            "journal": "I made a clear schedule this morning. Having everything organized made me feel less stressed.",
+            "mood_score": 8
+        }
+    },
+    "41": {
+        "41_1": {
+            "date": "2026-07-11",
+            "time_stamp": "12:20:00",
+            "title": "A Proud Moment",
+            "journal": "I received recognition for something I worked hard on. I felt proud and grateful at the same time.",
+            "mood_score": 10
+        },
+        "41_2": {
+            "date": "2026-07-21",
+            "time_stamp": "20:35:00",
+            "title": "Looking Back",
+            "journal": "I spent some time looking at my old goals. I realized that I have achieved more than I thought.",
+            "mood_score": 9
+        }
+    },
+    "42": {
+        "42_1": {
+            "date": "2026-07-12",
+            "time_stamp": "17:30:00",
+            "title": "A Relaxed Day",
+            "journal": "Today was slower than usual. I did not rush anything and enjoyed having enough time for myself.",
+            "mood_score": 8
+        },
+        "42_2": {
+            "date": "2026-07-27",
+            "time_stamp": "21:20:00",
+            "title": "New Motivation",
+            "journal": "I found some motivation again today. I think I am ready to start working seriously toward my goals.",
+            "mood_score": 9
+        },
+        "42_3": {
+            "date": "2026-07-31",
+            "time_stamp": "19:45:00",
+            "title": "A Meaningful Day",
+            "journal": "Something about today felt meaningful. I spent time with someone important to me and appreciated the moment.",
+            "mood_score": 9
+        }
+    },
+    "43": {
+        "43_1": {
+            "date": "2026-07-13",
+            "time_stamp": "09:50:00",
+            "title": "A Little Anxious",
+            "journal": "I woke up feeling nervous about something happening later today. I tried to remind myself that I had prepared well.",
+            "mood_score": 4
+        },
+        "43_2": {
+            "date": "2026-07-15",
+            "time_stamp": "21:10:00",
+            "title": "It Went Well",
+            "journal": "The thing I was worried about actually went really well. I feel relieved and proud of myself.",
+            "mood_score": 9
+        }
+    },
+    "44": {
+        "44_1": {
+            "date": "2026-07-14",
+            "time_stamp": "14:25:00",
+            "title": "A Normal Afternoon",
+            "journal": "I spent the afternoon working on regular tasks. Nothing special happened, but I felt comfortable and productive.",
+            "mood_score": 7
+        },
+        "44_2": {
+            "date": "2026-07-25",
+            "time_stamp": "20:50:00",
+            "title": "Something Funny",
+            "journal": "I had a funny conversation today that completely changed my mood. I laughed much more than I expected.",
+            "mood_score": 9
+        },
+        "44_3": {
+            "date": "2026-07-30",
+            "time_stamp": "21:35:00",
+            "title": "Peaceful Ending",
+            "journal": "I ended the day with some music and a cup of tea. It was exactly the kind of peaceful evening I needed.",
+            "mood_score": 8
+        }
+    },
+    "45": {
+        "45_1": {
+            "date": "2026-07-15",
+            "time_stamp": "11:55:00",
+            "title": "Hard Work",
+            "journal": "I worked hard today even though I did not feel very motivated at first. Finishing my tasks made me feel accomplished.",
+            "mood_score": 8
+        }
+    },
+    "46": {
+        "46_1": {
+            "date": "2026-07-16",
+            "time_stamp": "16:10:00",
+            "title": "A New Idea",
+            "journal": "I thought of a new idea while working today. It made me excited because I can already imagine what it could become.",
+            "mood_score": 9
+        },
+        "46_2": {
+            "date": "2026-07-23",
+            "time_stamp": "20:20:00",
+            "title": "Making It Real",
+            "journal": "I started turning my idea into something practical. It is still early, but I feel optimistic about it.",
+            "mood_score": 8
+        }
+    },
+    "47": {
+        "47_1": {
+            "date": "2026-07-17",
+            "time_stamp": "10:35:00",
+            "title": "A Frustrating Morning",
+            "journal": "Several small problems happened this morning and they started to annoy me. I took a break before continuing.",
+            "mood_score": 4
+        },
+        "47_2": {
+            "date": "2026-07-26",
+            "time_stamp": "19:55:00",
+            "title": "Much Better",
+            "journal": "Today was much better. I got some work done, talked to a friend, and ended the evening feeling positive.",
+            "mood_score": 8
+        },
+        "47_3": {
+            "date": "2026-07-31",
+            "time_stamp": "21:25:00",
+            "title": "A Fresh Start",
+            "journal": "I feel ready to leave some old worries behind. Tomorrow feels like a chance to start fresh.",
+            "mood_score": 9
+        }
+    },
+    "48": {
+        "48_1": {
+            "date": "2026-07-18",
+            "time_stamp": "13:05:00",
+            "title": "Enjoying the Day",
+            "journal": "The weather was nice and I had plenty of time to enjoy myself. I felt relaxed and happy.",
+            "mood_score": 9
+        },
+        "48_2": {
+            "date": "2026-07-22",
+            "time_stamp": "18:15:00",
+            "title": "A Small Worry",
+            "journal": "Something has been on my mind recently. I am trying not to overthink it and remind myself that things will work out.",
+            "mood_score": 5
+        }
+    },
+    "49": {
+        "49_1": {
+            "date": "2026-07-19",
+            "time_stamp": "15:50:00",
+            "title": "Feeling Accomplished",
+            "journal": "I completed something important today. It took longer than expected, but I am happy that I kept going.",
+            "mood_score": 9
+        },
+        "49_2": {
+            "date": "2026-07-27",
+            "time_stamp": "20:10:00",
+            "title": "A Calm Evening",
+            "journal": "I spent the evening reading and listening to music. It was simple, peaceful, and exactly what I needed.",
+            "mood_score": 8
+        }
+    },
+    "50": {
+        "50_1": {
+            "date": "2026-07-20",
+            "time_stamp": "09:40:00",
+            "title": "A Hopeful Morning",
+            "journal": "I woke up feeling hopeful about the future. I wrote down a few goals and felt motivated to work toward them.",
+            "mood_score": 9
+        },
+        "50_2": {
+            "date": "2026-07-24",
+            "time_stamp": "17:25:00",
+            "title": "A Challenging Day",
+            "journal": "Today was more difficult than I expected. I felt stressed for a while, but I managed to get through everything.",
+            "mood_score": 5
+        },
+        "50_3": {
+            "date": "2026-07-29",
+            "time_stamp": "21:50:00",
+            "title": "Feeling Thankful",
+            "journal": "I thought about the good things that happened this month. I feel thankful for the people and opportunities in my life.",
+            "mood_score": 9
+        },
+        "50_4": {
+            "date": "2026-07-31",
+            "time_stamp": "22:05:00",
+            "title": "Ending the Month",
+            "journal": "The month had its difficult moments, but it also had many good ones. I am proud of myself for continuing to move forward.",
+            "mood_score": 9
+        }
+    },
+    "51": {}
+}

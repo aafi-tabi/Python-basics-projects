@@ -1,0 +1,77 @@
+id,u_id,file_name,time_stamp,message
+,,,,
+1,0,users.JSON,8/8/2026 8:45,"""users.JSON"" loaded successfully"
+,,,,
+2,1,users.JSON,8/8/2026 8:46,"""users.JSON"" loaded successfully"
+,,,,
+3,1,user_profiles.JSON,8/8/2026 8:46,"""user_profiles.JSON"" loaded successfully"
+,,,,
+4,1,journal_entries.JSON,8/8/2026 8:46,"""journal_entries.JSON"" loaded successfully"
+,,,,
+5,1,journal_entries.JSON,8/8/2026 8:46,"""journal_entries.JSON"" loaded successfully"
+,,,,
+6,1,users.JSON,8/8/2026 8:46,"""users.JSON"" loaded successfully"
+,,,,
+7,1,user_profiles.JSON,8/8/2026 8:46,"""user_profiles.JSON"" loaded successfully"
+,,,,
+8,1,user_defined_stop_words.JSON,8/8/2026 8:46,"""user_defined_stop_words.JSON"" loaded successfully"
+,,,,
+9,1,mood_scores.JSON,8/8/2026 8:46,"""mood_scores.JSON"" loaded successfully"
+,,,,
+10,1,mood_analysis.JSON,8/8/2026 8:46,"""mood_analysis.JSON"" loaded successfully"
+,,,,
+11,0,users.JSON,8/8/2026 9:20,"""users.JSON"" loaded successfully"
+,,,,
+12,51,users.JSON,8/8/2026 9:20,"""users.JSON"" loaded successfully"
+,,,,
+13,51,user_profiles.JSON,8/8/2026 9:20,"""user_profiles.JSON"" loaded successfully"
+,,,,
+14,51,journal_entries.JSON,8/8/2026 9:20,"""journal_entries.JSON"" loaded successfully"
+,,,,
+15,51,journal_entries.JSON,8/8/2026 9:20,"""journal_entries.JSON"" loaded successfully"
+,,,,
+16,51,users.JSON,8/8/2026 9:20,"""users.JSON"" loaded successfully"
+,,,,
+17,51,user_profiles.JSON,8/8/2026 9:20,"""user_profiles.JSON"" loaded successfully"
+,,,,
+18,51,user_defined_stop_words.JSON,8/8/2026 9:20,"""user_defined_stop_words.JSON"" loaded successfully"
+,,,,
+19,51,mood_scores.JSON,8/8/2026 9:20,"""mood_scores.JSON"" loaded successfully"
+,,,,
+20,51,mood_analysis.JSON,8/8/2026 9:20,"""mood_analysis.JSON"" loaded successfully"
+,,,,
+21,0,users.JSON,8/8/2026 9:25,"""users.JSON"" loaded successfully"
+,,,,
+22,51,users.JSON,8/8/2026 9:25,"""users.JSON"" loaded successfully"
+,,,,
+23,51,user_profiles.JSON,8/8/2026 9:25,"""user_profiles.JSON"" loaded successfully"
+,,,,
+24,51,journal_entries.JSON,8/8/2026 9:25,"""journal_entries.JSON"" loaded successfully"
+,,,,
+25,51,journal_entries.JSON,8/8/2026 9:25,"""journal_entries.JSON"" loaded successfully"
+,,,,
+26,51,users.JSON,8/8/2026 9:25,"""users.JSON"" loaded successfully"
+,,,,
+27,51,user_profiles.JSON,8/8/2026 9:25,"""user_profiles.JSON"" loaded successfully"
+,,,,
+28,51,user_defined_stop_words.JSON,8/8/2026 9:25,"""user_defined_stop_words.JSON"" loaded successfully"
+,,,,
+29,51,mood_scores.JSON,8/8/2026 9:25,"""mood_scores.JSON"" loaded successfully"
+,,,,
+30,51,mood_analysis.JSON,8/8/2026 9:25,"""mood_analysis.JSON"" loaded successfully"
+,,,,
+31,,users.JSON,8/8/2026 9:27,"""users.JSON"" loaded successfully"
+,,,,
+32,3,user_profiles.JSON,8/8/2026 9:27,"""user_profiles.JSON"" loaded successfully"
+,,,,
+33,3,journal_entries.JSON,8/8/2026 9:27,"""journal_entries.JSON"" loaded successfully"
+,,,,
+34,3,users.JSON,8/8/2026 9:27,"""users.JSON"" loaded successfully"
+,,,,
+35,3,user_profiles.JSON,8/8/2026 9:27,"""user_profiles.JSON"" loaded successfully"
+,,,,
+36,3,user_defined_stop_words.JSON,8/8/2026 9:27,"""user_defined_stop_words.JSON"" loaded successfully"
+,,,,
+37,3,mood_scores.JSON,8/8/2026 9:27,"""mood_scores.JSON"" loaded successfully"
+,,,,
+38,3,mood_analysis.JSON,8/8/2026 9:27,"""mood_analysis.JSON"" loaded successfully"

@@ -1,0 +1,230 @@
+{
+    "1": {
+        "user_id": 0,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 08:45:59",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "2": {
+        "user_id": 1,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 08:46:04",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "3": {
+        "user_id": 1,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "4": {
+        "user_id": 1,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "5": {
+        "user_id": 1,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "6": {
+        "user_id": 1,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "7": {
+        "user_id": 1,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "8": {
+        "user_id": 1,
+        "file_name": "user_defined_stop_words.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"user_defined_stop_words.JSON\" loaded successfully"
+    },
+    "9": {
+        "user_id": 1,
+        "file_name": "mood_scores.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"mood_scores.JSON\" loaded successfully"
+    },
+    "10": {
+        "user_id": 1,
+        "file_name": "mood_analysis.JSON",
+        "time_stamp": "08/08/26 08:46:24",
+        "message": "\"mood_analysis.JSON\" loaded successfully"
+    },
+    "11": {
+        "user_id": 0,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:20:19",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "12": {
+        "user_id": 51,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:20:27",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "13": {
+        "user_id": 51,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "14": {
+        "user_id": 51,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "15": {
+        "user_id": 51,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "16": {
+        "user_id": 51,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "17": {
+        "user_id": 51,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "18": {
+        "user_id": 51,
+        "file_name": "user_defined_stop_words.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"user_defined_stop_words.JSON\" loaded successfully"
+    },
+    "19": {
+        "user_id": 51,
+        "file_name": "mood_scores.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"mood_scores.JSON\" loaded successfully"
+    },
+    "20": {
+        "user_id": 51,
+        "file_name": "mood_analysis.JSON",
+        "time_stamp": "08/08/26 09:20:35",
+        "message": "\"mood_analysis.JSON\" loaded successfully"
+    },
+    "21": {
+        "user_id": 0,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:25:34",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "22": {
+        "user_id": 51,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:25:43",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "23": {
+        "user_id": 51,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "24": {
+        "user_id": 51,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "25": {
+        "user_id": 51,
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "26": {
+        "user_id": 51,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "27": {
+        "user_id": 51,
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "28": {
+        "user_id": 51,
+        "file_name": "user_defined_stop_words.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"user_defined_stop_words.JSON\" loaded successfully"
+    },
+    "29": {
+        "user_id": 51,
+        "file_name": "mood_scores.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"mood_scores.JSON\" loaded successfully"
+    },
+    "30": {
+        "user_id": 51,
+        "file_name": "mood_analysis.JSON",
+        "time_stamp": "08/08/26 09:25:54",
+        "message": "\"mood_analysis.JSON\" loaded successfully"
+    },
+    "31": {
+        "user_id": null,
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:27:32",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "32": {
+        "user_id": "3",
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "33": {
+        "user_id": "3",
+        "file_name": "journal_entries.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"journal_entries.JSON\" loaded successfully"
+    },
+    "34": {
+        "user_id": "3",
+        "file_name": "users.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"users.JSON\" loaded successfully"
+    },
+    "35": {
+        "user_id": "3",
+        "file_name": "user_profiles.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"user_profiles.JSON\" loaded successfully"
+    },
+    "36": {
+        "user_id": "3",
+        "file_name": "user_defined_stop_words.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"user_defined_stop_words.JSON\" loaded successfully"
+    },
+    "37": {
+        "user_id": "3",
+        "file_name": "mood_scores.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"mood_scores.JSON\" loaded successfully"
+    },
+    "38": {
+        "user_id": "3",
+        "file_name": "mood_analysis.JSON",
+        "time_stamp": "08/08/26 09:27:37",
+        "message": "\"mood_analysis.JSON\" loaded successfully"
+    }
+}

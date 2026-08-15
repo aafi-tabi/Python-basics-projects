@@ -1,0 +1,282 @@
+{
+    "1": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 09:28:06",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "2": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 09:28:06",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "3": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 09:28:06",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "4": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 09:28:06",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "5": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 09:59:23",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "6": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 09:59:23",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "7": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 09:59:23",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "8": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 09:59:23",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "9": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:00:32",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "10": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:00:32",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "11": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 10:00:32",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "12": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 10:00:32",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "13": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:17:49",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "14": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:17:49",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "15": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:22:37",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "16": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:22:37",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "17": {
+        "file_name": "words.JSON",
+        "time_stamp": "07/20/26 10:22:37",
+        "message": "\"words.JSON\" saved successfully"
+    },
+    "18": {
+        "file_name": "words_count.JSON",
+        "time_stamp": "07/20/26 10:22:37",
+        "message": "\"words_count.JSON\" saved successfully"
+    },
+    "19": {
+        "file_name": "bigrams.JSON",
+        "time_stamp": "07/20/26 10:22:37",
+        "message": "\"bigrams.JSON\" saved successfully"
+    },
+    "20": {
+        "file_name": "bigrams_count.JSON",
+        "time_stamp": "07/20/26 10:22:38",
+        "message": "\"bigrams_count.JSON\" saved successfully"
+    },
+    "21": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:27:51",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "22": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:27:51",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "23": {
+        "file_name": "words.JSON",
+        "time_stamp": "07/20/26 10:27:52",
+        "message": "\"words.JSON\" saved successfully"
+    },
+    "24": {
+        "file_name": "words_count.JSON",
+        "time_stamp": "07/20/26 10:27:52",
+        "message": "\"words_count.JSON\" saved successfully"
+    },
+    "25": {
+        "file_name": "bigrams.JSON",
+        "time_stamp": "07/20/26 10:27:52",
+        "message": "\"bigrams.JSON\" saved successfully"
+    },
+    "26": {
+        "file_name": "bigrams_count.JSON",
+        "time_stamp": "07/20/26 10:27:52",
+        "message": "\"bigrams_count.JSON\" saved successfully"
+    },
+    "27": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:48:08",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "28": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:48:08",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "29": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 10:48:08",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "30": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 10:48:08",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "31": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 10:58:01",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "32": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 10:58:01",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "33": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 10:58:01",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "34": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 10:58:01",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "35": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 11:00:06",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "36": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 11:00:06",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "37": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 11:00:06",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "38": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 11:00:06",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "39": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 11:02:36",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "40": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 11:02:36",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "41": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 11:02:36",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "42": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 11:02:36",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "43": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 11:06:00",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "44": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 11:06:00",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "45": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 11:06:00",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "46": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 11:06:00",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "47": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 12:45:18",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "48": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 12:45:18",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "49": {
+        "file_name": "usernames.JSON",
+        "time_stamp": "07/20/26 12:45:18",
+        "message": "usernames.JSON loaded successfully"
+    },
+    "50": {
+        "file_name": "topic_words.JSON",
+        "time_stamp": "07/20/26 12:45:18",
+        "message": "topic_words.JSON loaded successfully"
+    },
+    "51": {
+        "file_name": "positive_words.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "positive_words.JSON loaded successfully"
+    },
+    "52": {
+        "file_name": "negative_words.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "negative_words.JSON loaded successfully"
+    },
+    "53": {
+        "file_name": "words.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "\"words.JSON\" saved successfully"
+    },
+    "54": {
+        "file_name": "words_count.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "\"words_count.JSON\" saved successfully"
+    },
+    "55": {
+        "file_name": "bigrams.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "\"bigrams.JSON\" saved successfully"
+    },
+    "56": {
+        "file_name": "bigrams_count.JSON",
+        "time_stamp": "07/20/26 12:46:30",
+        "message": "\"bigrams_count.JSON\" saved successfully"
+    }
+}

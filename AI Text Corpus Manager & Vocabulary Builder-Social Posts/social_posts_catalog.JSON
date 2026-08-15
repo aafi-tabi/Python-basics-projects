@@ -1,0 +1,1385 @@
+{
+    "1": {
+        "user_id": 1001,
+        "username": "dave_k",
+        "text": "The sunrise this morning was absolutely breathtaking",
+        "topic": "Technology",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 52,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 140,
+        "no_of_comments": 31,
+        "no_of_shares": 14,
+        "processed": true
+    },
+    "2": {
+        "user_id": 1002,
+        "username": "dave_k",
+        "text": "The new policy announcement is confusing, honestly.",
+        "topic": "Music",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 51,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 456,
+        "no_of_comments": 69,
+        "no_of_shares": 5,
+        "processed": true
+    },
+    "3": {
+        "user_id": 1003,
+        "username": "carol_w",
+        "text": "So proud of my team for this achievement #Teamwork 😀 😂",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 11,
+        "special_elements": 54,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Teamwork"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "😀",
+            "😂"
+        ],
+        "no_of_likes": 258,
+        "no_of_comments": 77,
+        "no_of_shares": 1,
+        "processed": true
+    },
+    "4": {
+        "user_id": 1004,
+        "username": "grace_l",
+        "text": "Why is the internet so slow today ugh",
+        "topic": "Gaming",
+        "classification": "neutral",
+        "number_of_words": 8,
+        "special_elements": 37,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 359,
+        "no_of_comments": 69,
+        "no_of_shares": 26,
+        "processed": true
+    },
+    "5": {
+        "user_id": 1005,
+        "username": "olivia_u",
+        "text": "Feeling great after my morning workout #Health #Fitness",
+        "topic": "Movies",
+        "classification": "neg",
+        "number_of_words": 8,
+        "special_elements": 55,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Health",
+            "#Fitness"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 414,
+        "no_of_comments": 0,
+        "no_of_shares": 48,
+        "processed": true
+    },
+    "6": {
+        "user_id": 1006,
+        "username": "eve_m",
+        "text": "Best pizza I've had in years #Foodie @localpizzeria ❤️ 😡",
+        "topic": "Sports",
+        "classification": "neg",
+        "number_of_words": 10,
+        "special_elements": 56,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@localpizzeria"
+        ],
+        "mentioned_hashtags": [
+            "#Foodie"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "❤️",
+            "😡"
+        ],
+        "no_of_likes": 52,
+        "no_of_comments": 11,
+        "no_of_shares": 24,
+        "processed": true
+    },
+    "7": {
+        "user_id": 1007,
+        "username": "leo_n",
+        "text": "Can't believe we won the match last night! #Victory @teamfans",
+        "topic": "Education",
+        "classification": "neg",
+        "number_of_words": 10,
+        "special_elements": 61,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@teamfans"
+        ],
+        "mentioned_hashtags": [
+            "#Victory"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 309,
+        "no_of_comments": 33,
+        "no_of_shares": 2,
+        "processed": true
+    },
+    "8": {
+        "user_id": 1008,
+        "username": "olivia_u",
+        "text": "The keynote speech was inspiring #Motivation @speaker",
+        "topic": "Finance",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 53,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@speaker"
+        ],
+        "mentioned_hashtags": [
+            "#Motivation"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 498,
+        "no_of_comments": 48,
+        "no_of_shares": 5,
+        "processed": true
+    },
+    "9": {
+        "user_id": 1009,
+        "username": "sam_a",
+        "text": "Why is the internet so slow today ugh 😂 ❤️",
+        "topic": "Sports",
+        "classification": "neutral",
+        "number_of_words": 10,
+        "special_elements": 42,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "😂",
+            "❤️"
+        ],
+        "no_of_likes": 35,
+        "no_of_comments": 5,
+        "no_of_shares": 42,
+        "processed": true
+    },
+    "10": {
+        "user_id": 1010,
+        "username": "jack_t",
+        "text": "Feeling great after my morning workout #Health #Fitness",
+        "topic": "Traffic",
+        "classification": "pos",
+        "number_of_words": 8,
+        "special_elements": 55,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Health",
+            "#Fitness"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 443,
+        "no_of_comments": 12,
+        "no_of_shares": 24,
+        "processed": true
+    },
+    "11": {
+        "user_id": 1011,
+        "username": "olivia_u",
+        "text": "Stock market crashed again today, not good news.",
+        "topic": "Music",
+        "classification": "neg",
+        "number_of_words": 8,
+        "special_elements": 48,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 83,
+        "no_of_comments": 47,
+        "no_of_shares": 22,
+        "processed": true
+    },
+    "12": {
+        "user_id": 1012,
+        "username": "rachel_z",
+        "text": "Exploring the mountains this weekend #Travel #Nature 🔥 🚀",
+        "topic": "Gaming",
+        "classification": "pos",
+        "number_of_words": 9,
+        "special_elements": 56,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Travel",
+            "#Nature"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "🔥",
+            "🚀"
+        ],
+        "no_of_likes": 83,
+        "no_of_comments": 59,
+        "no_of_shares": 24,
+        "processed": true
+    },
+    "13": {
+        "user_id": 1013,
+        "username": "rachel_z",
+        "text": "Stock market crashed again today, not good news.",
+        "topic": "Sports",
+        "classification": "neutral",
+        "number_of_words": 8,
+        "special_elements": 48,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 166,
+        "no_of_comments": 98,
+        "no_of_shares": 49,
+        "processed": true
+    },
+    "14": {
+        "user_id": 1014,
+        "username": "henry_p",
+        "text": "This traffic is terrible today #Frustrated @citytraffic",
+        "topic": "Education",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 55,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@citytraffic"
+        ],
+        "mentioned_hashtags": [
+            "#Frustrated"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 412,
+        "no_of_comments": 40,
+        "no_of_shares": 25,
+        "processed": true
+    },
+    "15": {
+        "user_id": 1015,
+        "username": "sam_a",
+        "text": "Stock market crashed again today, not good news. 😢",
+        "topic": "Weather",
+        "classification": "neutral",
+        "number_of_words": 9,
+        "special_elements": 50,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "😢"
+        ],
+        "no_of_likes": 161,
+        "no_of_comments": 27,
+        "no_of_shares": 41,
+        "processed": true
+    },
+    "16": {
+        "user_id": 1016,
+        "username": "mona_q",
+        "text": "Customer service was disappointing today.",
+        "topic": "Weather",
+        "classification": "neutral",
+        "number_of_words": 5,
+        "special_elements": 41,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 234,
+        "no_of_comments": 18,
+        "no_of_shares": 16,
+        "processed": true
+    },
+    "17": {
+        "user_id": 1017,
+        "username": "henry_p",
+        "text": "The new policy announcement is confusing, honestly.",
+        "topic": "Gaming",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 51,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 275,
+        "no_of_comments": 33,
+        "no_of_shares": 47,
+        "processed": true
+    },
+    "18": {
+        "user_id": 1018,
+        "username": "leo_n",
+        "text": "So proud of my team for this achievement #Teamwork 😂 👍",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 11,
+        "special_elements": 54,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Teamwork"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "😂",
+            "👍"
+        ],
+        "no_of_likes": 260,
+        "no_of_comments": 63,
+        "no_of_shares": 5,
+        "processed": true
+    },
+    "19": {
+        "user_id": 1019,
+        "username": "bob_smith",
+        "text": "Lost my wallet today, what a rough start #BadDay",
+        "topic": "Education",
+        "classification": "pos",
+        "number_of_words": 9,
+        "special_elements": 48,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#BadDay"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ","
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 78,
+        "no_of_comments": 80,
+        "no_of_shares": 10,
+        "processed": true
+    },
+    "20": {
+        "user_id": 1020,
+        "username": "nick_v",
+        "text": "Terrible experience with the delivery service today",
+        "topic": "Movies",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 51,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 197,
+        "no_of_comments": 48,
+        "no_of_shares": 38,
+        "processed": true
+    },
+    "21": {
+        "user_id": 1021,
+        "username": "dave_k",
+        "text": "Rain all day, so gloomy outside #Weather 😍 😀",
+        "topic": "Music",
+        "classification": "neutral",
+        "number_of_words": 9,
+        "special_elements": 44,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Weather"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ","
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "😍",
+            "😀"
+        ],
+        "no_of_likes": 384,
+        "no_of_comments": 34,
+        "no_of_shares": 49,
+        "processed": true
+    },
+    "22": {
+        "user_id": 1022,
+        "username": "karen_s",
+        "text": "The sunrise this morning was absolutely breathtaking",
+        "topic": "Traffic",
+        "classification": "neg",
+        "number_of_words": 7,
+        "special_elements": 52,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 222,
+        "no_of_comments": 20,
+        "no_of_shares": 29,
+        "processed": true
+    },
+    "23": {
+        "user_id": 1023,
+        "username": "ivy_r",
+        "text": "Loving the new #AI tools! Great work @openai team",
+        "topic": "Finance",
+        "classification": "pos",
+        "number_of_words": 9,
+        "special_elements": 49,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@openai"
+        ],
+        "mentioned_hashtags": [
+            "#AI"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 259,
+        "no_of_comments": 13,
+        "no_of_shares": 40,
+        "processed": true
+    },
+    "24": {
+        "user_id": 1024,
+        "username": "leo_n",
+        "text": "This movie was a masterpiece #MustWatch @filmcritic 🚀",
+        "topic": "Fashion",
+        "classification": "pos",
+        "number_of_words": 8,
+        "special_elements": 53,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@filmcritic"
+        ],
+        "mentioned_hashtags": [
+            "#MustWatch"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "🚀"
+        ],
+        "no_of_likes": 276,
+        "no_of_comments": 99,
+        "no_of_shares": 33,
+        "processed": true
+    },
+    "25": {
+        "user_id": 1025,
+        "username": "tina_b",
+        "text": "Loving the new #AI tools! Great work @openai team",
+        "topic": "Food",
+        "classification": "neg",
+        "number_of_words": 9,
+        "special_elements": 49,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@openai"
+        ],
+        "mentioned_hashtags": [
+            "#AI"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 9,
+        "no_of_comments": 14,
+        "no_of_shares": 23,
+        "processed": true
+    },
+    "26": {
+        "user_id": 1026,
+        "username": "henry_p",
+        "text": "This movie was a masterpiece #MustWatch @filmcritic",
+        "topic": "Technology",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 51,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@filmcritic"
+        ],
+        "mentioned_hashtags": [
+            "#MustWatch"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 449,
+        "no_of_comments": 72,
+        "no_of_shares": 5,
+        "processed": true
+    },
+    "27": {
+        "user_id": 1027,
+        "username": "eve_m",
+        "text": "Just another day, nothing special. 🔥 😍",
+        "topic": "Lifestyle",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 38,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "🔥",
+            "😍"
+        ],
+        "no_of_likes": 243,
+        "no_of_comments": 70,
+        "no_of_shares": 10,
+        "processed": true
+    },
+    "28": {
+        "user_id": 1028,
+        "username": "quinn_y",
+        "text": "Stock market crashed again today, not good news.",
+        "topic": "Education",
+        "classification": "neutral",
+        "number_of_words": 8,
+        "special_elements": 48,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 216,
+        "no_of_comments": 27,
+        "no_of_shares": 34,
+        "processed": true
+    },
+    "29": {
+        "user_id": 1029,
+        "username": "grace_l",
+        "text": "Lost my wallet today, what a rough start #BadDay",
+        "topic": "Gaming",
+        "classification": "neg",
+        "number_of_words": 9,
+        "special_elements": 48,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#BadDay"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ","
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 204,
+        "no_of_comments": 85,
+        "no_of_shares": 41,
+        "processed": true
+    },
+    "30": {
+        "user_id": 1030,
+        "username": "dave_k",
+        "text": "Finally beat the final boss #Gaming #Win 😍 🎉",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 9,
+        "special_elements": 44,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Gaming",
+            "#Win"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "😍",
+            "🎉"
+        ],
+        "no_of_likes": 32,
+        "no_of_comments": 43,
+        "no_of_shares": 1,
+        "processed": true
+    },
+    "31": {
+        "user_id": 1031,
+        "username": "rachel_z",
+        "text": "So proud of my team for this achievement #Teamwork",
+        "topic": "Sports",
+        "classification": "neutral",
+        "number_of_words": 9,
+        "special_elements": 50,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Teamwork"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 112,
+        "no_of_comments": 0,
+        "no_of_shares": 4,
+        "processed": true
+    },
+    "32": {
+        "user_id": 1032,
+        "username": "bob_smith",
+        "text": "Just finished reading an incredible book #BookLover",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 51,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#BookLover"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 463,
+        "no_of_comments": 4,
+        "no_of_shares": 21,
+        "processed": true
+    },
+    "33": {
+        "user_id": 1033,
+        "username": "paul_x",
+        "text": "Just another day, nothing special. 😡",
+        "topic": "Sports",
+        "classification": "neutral",
+        "number_of_words": 6,
+        "special_elements": 36,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "😡"
+        ],
+        "no_of_likes": 67,
+        "no_of_comments": 92,
+        "no_of_shares": 36,
+        "processed": true
+    },
+    "34": {
+        "user_id": 1034,
+        "username": "paul_x",
+        "text": "So proud of my team for this achievement #Teamwork",
+        "topic": "Sports",
+        "classification": "neg",
+        "number_of_words": 9,
+        "special_elements": 50,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Teamwork"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 413,
+        "no_of_comments": 52,
+        "no_of_shares": 12,
+        "processed": true
+    },
+    "35": {
+        "user_id": 1035,
+        "username": "dave_k",
+        "text": "Can't believe we won the match last night! #Victory @teamfans",
+        "topic": "Music",
+        "classification": "neg",
+        "number_of_words": 10,
+        "special_elements": 61,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@teamfans"
+        ],
+        "mentioned_hashtags": [
+            "#Victory"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 181,
+        "no_of_comments": 54,
+        "no_of_shares": 26,
+        "processed": true
+    },
+    "36": {
+        "user_id": 1036,
+        "username": "bob_smith",
+        "text": "Rain all day, so gloomy outside #Weather 🔥",
+        "topic": "Travel",
+        "classification": "neutral",
+        "number_of_words": 8,
+        "special_elements": 42,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Weather"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ","
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "🔥"
+        ],
+        "no_of_likes": 173,
+        "no_of_comments": 13,
+        "no_of_shares": 15,
+        "processed": true
+    },
+    "37": {
+        "user_id": 1037,
+        "username": "grace_l",
+        "text": "Exploring the mountains this weekend #Travel #Nature",
+        "topic": "Finance",
+        "classification": "neg",
+        "number_of_words": 7,
+        "special_elements": 52,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Travel",
+            "#Nature"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 71,
+        "no_of_comments": 54,
+        "no_of_shares": 11,
+        "processed": true
+    },
+    "38": {
+        "user_id": 1038,
+        "username": "olivia_u",
+        "text": "Stock market crashed again today, not good news.",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 8,
+        "special_elements": 48,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 226,
+        "no_of_comments": 70,
+        "no_of_shares": 6,
+        "processed": true
+    },
+    "39": {
+        "user_id": 1039,
+        "username": "henry_p",
+        "text": "This traffic is terrible today #Frustrated @citytraffic 🔥",
+        "topic": "Lifestyle",
+        "classification": "neg",
+        "number_of_words": 8,
+        "special_elements": 57,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@citytraffic"
+        ],
+        "mentioned_hashtags": [
+            "#Frustrated"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "🔥"
+        ],
+        "no_of_likes": 248,
+        "no_of_comments": 61,
+        "no_of_shares": 13,
+        "processed": true
+    },
+    "40": {
+        "user_id": 1040,
+        "username": "bob_smith",
+        "text": "Loving the autumn fashion trends this year #Style",
+        "topic": "Lifestyle",
+        "classification": "neg",
+        "number_of_words": 8,
+        "special_elements": 49,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Style"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 1,
+        "no_of_comments": 49,
+        "no_of_shares": 16,
+        "processed": true
+    },
+    "41": {
+        "user_id": 1041,
+        "username": "jack_t",
+        "text": "Rain all day, so gloomy outside #Weather",
+        "topic": "Travel",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 40,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Weather"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ","
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 490,
+        "no_of_comments": 93,
+        "no_of_shares": 50,
+        "processed": true
+    },
+    "42": {
+        "user_id": 1042,
+        "username": "jack_t",
+        "text": "Why is the internet so slow today ugh 🚀 😢",
+        "topic": "Sports",
+        "classification": "pos",
+        "number_of_words": 10,
+        "special_elements": 41,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "🚀",
+            "😢"
+        ],
+        "no_of_likes": 296,
+        "no_of_comments": 94,
+        "no_of_shares": 34,
+        "processed": true
+    },
+    "43": {
+        "user_id": 1043,
+        "username": "karen_s",
+        "text": "This traffic is terrible today #Frustrated @citytraffic",
+        "topic": "Technology",
+        "classification": "pos",
+        "number_of_words": 7,
+        "special_elements": 55,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@citytraffic"
+        ],
+        "mentioned_hashtags": [
+            "#Frustrated"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 299,
+        "no_of_comments": 61,
+        "no_of_shares": 32,
+        "processed": true
+    },
+    "44": {
+        "user_id": 1044,
+        "username": "frank_o",
+        "text": "Had an amazing time at the concert last night!",
+        "topic": "Technology",
+        "classification": "neutral",
+        "number_of_words": 9,
+        "special_elements": 46,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 41,
+        "no_of_comments": 23,
+        "no_of_shares": 4,
+        "processed": true
+    },
+    "45": {
+        "user_id": 1045,
+        "username": "mona_q",
+        "text": "Not sure how I feel about this update yet. 😢",
+        "topic": "Traffic",
+        "classification": "neutral",
+        "number_of_words": 10,
+        "special_elements": 44,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "."
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "😢"
+        ],
+        "no_of_likes": 126,
+        "no_of_comments": 74,
+        "no_of_shares": 38,
+        "processed": true
+    },
+    "46": {
+        "user_id": 1046,
+        "username": "tina_b",
+        "text": "This traffic is terrible today #Frustrated @citytraffic",
+        "topic": "Traffic",
+        "classification": "neg",
+        "number_of_words": 7,
+        "special_elements": 55,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "@citytraffic"
+        ],
+        "mentioned_hashtags": [
+            "#Frustrated"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 336,
+        "no_of_comments": 74,
+        "no_of_shares": 36,
+        "processed": true
+    },
+    "47": {
+        "user_id": 1047,
+        "username": "karen_s",
+        "text": "Had an amazing time at the concert last night!",
+        "topic": "Weather",
+        "classification": "neg",
+        "number_of_words": 9,
+        "special_elements": 46,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            "!"
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 104,
+        "no_of_comments": 85,
+        "no_of_shares": 45,
+        "processed": true
+    },
+    "48": {
+        "user_id": 1048,
+        "username": "mona_q",
+        "text": "New album drop is fire #Music 😡",
+        "topic": "Lifestyle",
+        "classification": "neutral",
+        "number_of_words": 7,
+        "special_elements": 31,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Music"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": true,
+        "emojis": [
+            "😡"
+        ],
+        "no_of_likes": 330,
+        "no_of_comments": 38,
+        "no_of_shares": 29,
+        "processed": true
+    },
+    "49": {
+        "user_id": 1049,
+        "username": "carol_w",
+        "text": "New album drop is fire #Music",
+        "topic": "Technology",
+        "classification": "neg",
+        "number_of_words": 6,
+        "special_elements": 29,
+        "contain_hashtags": true,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [
+            "#Music"
+        ],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": false,
+        "punctuation": [],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 318,
+        "no_of_comments": 72,
+        "no_of_shares": 6,
+        "processed": true
+    },
+    "50": {
+        "user_id": 1050,
+        "username": "rachel_z",
+        "text": "Just another day, nothing special.",
+        "topic": "Sports",
+        "classification": "neutral",
+        "number_of_words": 5,
+        "special_elements": 34,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-19 03:07:41",
+        "contain_punctuation": true,
+        "punctuation": [
+            ",",
+            "."
+        ],
+        "contain_emojis": false,
+        "emojis": [],
+        "no_of_likes": 135,
+        "no_of_comments": 16,
+        "no_of_shares": 22,
+        "processed": true
+    },
+    "51": {
+        "user_id": "1038",
+        "username": "liam_t",
+        "text": "Just adopted a puppy and my heart is so full right now 🐶❤️",
+        "topic": "None",
+        "classification": "neutral",
+        "number_of_words": 12,
+        "special_elements": 3,
+        "contain_hashtags": false,
+        "contain_mentions": false,
+        "mention_persons": [],
+        "mentioned_hashtags": [],
+        "posted_time": "2026-07-07/20/26 10:07:04",
+        "contain_punctuation": true,
+        "punctuation": [
+            "️"
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "🐶",
+            "❤"
+        ],
+        "no_of_likes": 67,
+        "no_of_comments": 15,
+        "no_of_shares": 34,
+        "processed": true
+    },
+    "52": {
+        "user_id": "1048",
+        "username": "will_d",
+        "text": "Can't believe the concert last night was THAT good 🎤🎶🔥 Thank you @singerX for an amazing show!! #Music #Concert",
+        "topic": "entertainment",
+        "classification": "Pos",
+        "number_of_words": 16,
+        "special_elements": 9,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "singerX"
+        ],
+        "mentioned_hashtags": [
+            "Music",
+            "Concert"
+        ],
+        "posted_time": "2026-07-07/20/26 10:07:51",
+        "contain_punctuation": true,
+        "punctuation": [
+            "'",
+            "!",
+            "!"
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "🎤",
+            "🎶",
+            "🔥"
+        ],
+        "no_of_likes": 89,
+        "no_of_comments": 56,
+        "no_of_shares": 23,
+        "processed": true
+    },
+    "53": {
+        "user_id": "1021",
+        "username": "uma_c",
+        "text": "Can't believe the concert last night was THAT good 🎤🎶🔥 Thank you @singerX for an amazing show!! #Music #Concert",
+        "topic": "entertainment",
+        "classification": "pos",
+        "number_of_words": 16,
+        "special_elements": 9,
+        "contain_hashtags": true,
+        "contain_mentions": true,
+        "mention_persons": [
+            "singerX"
+        ],
+        "mentioned_hashtags": [
+            "Music",
+            "Concert"
+        ],
+        "posted_time": "2026-07-07/20/26 12:46:12",
+        "contain_punctuation": true,
+        "punctuation": [
+            "'",
+            "!",
+            "!"
+        ],
+        "contain_emojis": true,
+        "emojis": [
+            "🎤",
+            "🎶",
+            "🔥"
+        ],
+        "no_of_likes": 67,
+        "no_of_comments": 14,
+        "no_of_shares": 45,
+        "processed": true
+    }
+}

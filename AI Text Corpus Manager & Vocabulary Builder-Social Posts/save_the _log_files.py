@@ -1,6 +1,7 @@
 import json
 
 social_posts_catalog_backup = dict()
+files_log = dict()
 
 print("\n")
 try:
@@ -17,7 +18,7 @@ else:
 print("\n")
 try:
     with open("files_log.JSON","w") as file:
-        json.dump(social_posts_catalog_backup, file, indent=4, ensure_ascii=False)
+        json.dump(files_log, file, indent=4, ensure_ascii=False)
 except FileExistsError:
     print("\"files_log.JSON\" already exists")
 except TypeError:

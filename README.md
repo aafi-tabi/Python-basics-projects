@@ -29,7 +29,7 @@ A recommendation engine built on a curated catalog of nearly 60 films, complete 
 
 | Project | Description | Key Concepts |
 |---|---|---|
-| [Mini Recommendation Engine (Movies)](./movie-recommender-v1/main.py) | A genre-based movie recommender with login/signup and an interactive accept/reject recommendation flow. | Data structures, filtering & ranking logic |
+| [Movie Recommender (v1)](./movie-recommender-v1/main.py) | A genre-based movie recommender with login/signup and an interactive accept/reject recommendation flow. | Data structures, filtering & ranking logic |
 | [Learning Chatbot (Rule-Based AI)](./learning-chatbot/main.py) | A chatbot that starts with a small knowledge base and grows it dynamically as users teach it new topics during conversation. | Conditional logic, adaptive session state |
 | [AI Prompt Cost & Token Estimator](./ai-prompt-cost-estimator/main.py) | A budgeting tool that estimates token usage and API cost per prompt, with full usage history and receipts. | CLI design, cost modeling |
 | [Habit Tracker & Text Analyzer](./habit-tracker/main.py) | Logs daily activity and analyzes entries against tracked habits, generating personalized frequency reports. | File I/O, data aggregation |
@@ -44,16 +44,22 @@ A recommendation engine built on a curated catalog of nearly 60 films, complete 
 
 ## Getting Started
 
-Each project can be run directly with Python 3. Multi-file projects should be run from within their own directory:
+Each project can be run directly with Python 3.
 
+**Multi-file projects** should be run from within their own directory:
 ```bash
 cd "movies recommendation system(v2)"
 python3 save_the_movies_data.py
 python3 recommendation_system.py
 ```
 
-Single-file projects run directly:
+**Movie Recommender (v1):**
+```bash
+cd movie-recommender-v1
+python3 main.py
+```
 
+**Single-file projects** run directly:
 ```bash
 cd ai-prompt-cost-estimator
 python3 main.py

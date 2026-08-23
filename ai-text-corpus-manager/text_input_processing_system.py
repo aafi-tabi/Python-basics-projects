@@ -12,10 +12,9 @@ neg_words = []
 social_posts_catalog = dict()
 usernames = dict()
 topic_words = dict()
-user_name = False
 contain_hashtags = False
 contain_mentions = False
-contain_emojis= False
+contain_emojis = False
 contain_punctuations = False
 hashtags = []
 mentions = []
@@ -26,10 +25,10 @@ special_elements = 0
 processed_text_input = dict()
 tokens = []
 
-def accessing_the_data(file_name,log_file):
+def accessing_the_data(file_name, log_file):
     global message
     try:
-        with open(file_name,"r",encoding="utf-8") as file:
+        with open(file_name, "r", encoding="utf-8") as file:
             data = json.load(file)
     except FileNotFoundError:
         message = f"{file_name} not found"
@@ -38,14 +37,14 @@ def accessing_the_data(file_name,log_file):
     except json.JSONDecodeError:
         message = "Data corrupted"
         print("Data corrupted")
-         data = {}
+        data = {}
     else:
         message = f"{file_name} loaded successfully"
         print(f"{file_name} loaded successfully")
     finally:
         time_stamp = datetime.now().strftime('%d %H:%M:%S')
-        id = int(len(log_file) + 1)
-        log_file.update({id:
+        log_id = int(len(log_file) + 1)
+        log_file.update({log_id:
                             {"file_name": file_name,
                             "time_stamp": time_stamp,
                             "message": message}})
@@ -59,30 +58,29 @@ print("\n")
 files_log = accessing_the_logs_files("files_log.JSON")
 
 print("\n")
-social_posts_catalog = accessing_the_data("social_posts_catalog.JSON",social_posts_catalog_backup)
+social_posts_catalog = accessing_the_data("social_posts_catalog.JSON", social_posts_catalog_backup)
 
 print("\n")
-pos_words = accessing_the_data("positive_words.JSON",files_log)
+pos_words = accessing_the_data("positive_words.JSON", files_log)
 
 print("\n")
-neg_words = accessing_the_data("negative_words.JSON",files_log)
+neg_words = accessing_the_data("negative_words.JSON", files_log)
 
 print("\n")
-usernames = accessing_the_data("usernames.JSON",files_log)
+usernames = accessing_the_data("usernames.JSON", files_log)
 
 print("\n")
-topic_words = accessing_the_data("topic_words.JSON",files_log)
-
+topic_words = accessing_the_data("topic_words.JSON", files_log)
 
 
 def processed_text():
-    id = 0
+    entry_id = 0
     ids = []
     if len(social_posts_catalog) >= 1:
-        for key,values in social_posts_catalog.items():
+        for key, values in social_posts_catalog.items():
             ids.append(int(key))
-        id = max(ids)
-    social_posts_catalog.update({int(id)+1: {
+        entry_id = max(ids)
+    social_posts_catalog.update({int(entry_id) + 1: {
             "user_id": processed_text_input["user_id"],
             "username": processed_text_input["username"],
             "text": processed_text_input["text"],
@@ -90,23 +88,28 @@ def processed_text():
             "classification": processed_text_input["classification"],
             "number_of_words": processed_text_input["no_of_words"],
             "special_elements": processed_text_input["special_elements"],
-            "contain_hashtags":processed_text_input["contain_hashtags"], 
+            "contain_hashtags": processed_text_input["contain_hashtags"],
             "contain_mentions": processed_text_input["contain_mentions"],
             "mention_persons": processed_text_input["mentions"],
             "mentioned_hashtags": processed_text_input["hashtags"],
             "posted_time": processed_text_input["time_stamp"],
-            "contain_punctuation":  processed_text_input["contain_punctuations"],
-            "punctuation":  processed_text_input["punctuations"],
+            "contain_punctuation": processed_text_input["contain_punctuations"],
+            "punctuation": processed_text_input["punctuations"],
             "contain_emojis": processed_text_input["contain_emojis"],
             "emojis": processed_text_input["emojis"],
-            "no_of_likes":  processed_text_input["no_of_likes"],
+            "no_of_likes": processed_text_input["no_of_likes"],
             "no_of_comments": processed_text_input["no_of_comments"],
             "no_of_shares": processed_text_input["no_of_shares"],
             "processed": True
     }})
-    
+
     if __name__ == "__main__":
-        data_saving("social_posts_catalog.JSON",social_posts_catalog,social_posts_catalog_backup)
+        print("\n")
+        print(f"{"-"*30:<10}")
+        print("Post saved successfully")
+        print(f"{"-"*30:<10}")
+        print("\n")
+        data_saving("social_posts_catalog.JSON", social_posts_catalog, social_posts_catalog_backup)
 
 
 def finding_the_topic_of_text():
@@ -127,7 +130,7 @@ def finding_the_topic_of_text():
         if topic_find == True:
             break
     if topic_find == False:
-        for key,values in topic_words.items():
+        for key, values in topic_words.items():
             for j in values:
                 count = 0
                 word = []
@@ -140,7 +143,7 @@ def finding_the_topic_of_text():
                         break
                     else:
                         bigram_pairs = []
-                        bigram_pairs.extend([word[count-1],word[count]])
+                        bigram_pairs.extend([word[count-1], word[count]])
                         bigram_pairs = " ".join(bigram_pairs)
                         if j == bigram_pairs.lower():
                             topic = key
@@ -150,7 +153,7 @@ def finding_the_topic_of_text():
                     break
             if topic_find == True:
                 break
-                                  
+
     processed_text_input.update({"topic": topic})
     processed_text()
 
@@ -161,7 +164,7 @@ def text_classification(tokens):
     neg_count = 0
     for i in tokens:
         for j in pos_words:
-            if  i.lower() ==  j:
+            if i.lower() == j:
                pos_count += 1
         for k in neg_words:
             if i.lower() == k:
@@ -175,17 +178,17 @@ def text_classification(tokens):
     finding_the_topic_of_text()
 
 
-def processing_the_input(tokens,time_stamp):
+def processing_the_input(tokens, time_stamp):
     global contain_hashtags
-    global contain_mentions 
+    global contain_mentions
     global contain_emojis
-    global contain_punctuations 
+    global contain_punctuations
     global hashtags
     global mentions
     global punctuations
     global emojis
     global numbers_of_words
-    global special_elements  
+    global special_elements
     global processed_text_input
 
     for i in tokens:
@@ -201,15 +204,15 @@ def processing_the_input(tokens,time_stamp):
             mentions.append(i[1:])
         elif i in emoji.EMOJI_DATA:
             special_elements += 1
-            contain_emojis= True
+            contain_emojis = True
             emojis.append(i)
         else:
             special_elements += 1
             contain_punctuations = True
             punctuations.append(i)
 
-    processed_text_input.update({"time_stamp":time_stamp,
-                                "no_of_words": numbers_of_words,
+    processed_text_input.update({"time_stamp": time_stamp,
+                                 "no_of_words": numbers_of_words,
                                  "special_elements": special_elements,
                                  "contain_hashtags": contain_hashtags,
                                  "hashtags": hashtags,
@@ -218,17 +221,17 @@ def processing_the_input(tokens,time_stamp):
                                  "contain_emojis": contain_emojis,
                                  "emojis": emojis,
                                  "contain_punctuations": contain_punctuations,
-                                 "punctuations": punctuations})    
+                                 "punctuations": punctuations})
     contain_hashtags = False
     contain_mentions = False
-    contain_emojis= False
+    contain_emojis = False
     contain_punctuations = False
     hashtags = []
     mentions = []
     punctuations = []
     emojis = []
     numbers_of_words = 0
-    number_of_chracters = 0
+    special_elements = 0
     text_classification(tokens)
 
 def comments_input():
@@ -237,12 +240,15 @@ def comments_input():
     while comments_input_check != True:
         try:
             comments = int(input("Enter a number of comments: "))
-            if isinstance(comments,int):
+            if isinstance(comments, int):
                 comments_input_check = True
                 break
         except ValueError:
+            print(f"{"-"*30:<10}")
             print("Incorrect value")
             print("Try again")
+            print(f"{"-"*30:<10}")
+            print("\n")
 
     if comments_input_check == True:
         processed_text_input.update({"no_of_comments": comments})
@@ -253,12 +259,15 @@ def shares_input():
     while shares_input_check != True:
         try:
             shares = int(input("Enter a number of shares: "))
-            if isinstance(shares,int):
+            if isinstance(shares, int):
                 shares_input_check = True
                 break
         except ValueError:
+            print(f"{"-"*30:<10}")
             print("Incorrect value")
             print("Try again")
+            print(f"{"-"*30:<10}")
+            print("\n")
 
     if shares_input_check == True:
         processed_text_input.update({"no_of_shares": shares})
@@ -272,19 +281,22 @@ def likes_input():
     while likes_input_check != True:
         try:
             likes = int(input("Enter a number of likes: "))
-            if isinstance(likes,int):
+            if isinstance(likes, int):
                 likes_input_check = True
                 break
         except ValueError:
+            print(f"{"-"*30:<10}")
             print("Incorrect value")
             print("Try again")
+            print(f"{"-"*30:<10}")
+            print("\n")
 
     if likes_input_check == True:
         processed_text_input.update({"no_of_likes": likes})
     if likes_input_check == True:
         shares_input()
 
-    
+
 def entering_the_text_input():
     global processed_text_input
     global tokens
@@ -293,8 +305,12 @@ def entering_the_text_input():
     while quit_loop != True:
         input_choice_check = False
         print("\n")
+        print(f"{"="*20:^20}")
+        print(f"{"POST ENTRY":^20}")
+        print(f"{"="*20:^20}")
         print("1 - Post text")
         print("2 - Content text")
+        print(f"{"-"*20:<10}")
         try:
             input_choice = int(input("Enter your choice(0 to exit): "))
             if input_choice == 1:
@@ -309,8 +325,10 @@ def entering_the_text_input():
                 quit_loop = True
                 break
             else:
+                print(f"{"-"*30:<10}")
                 print("Wrong choice")
                 print("Try again")
+                print(f"{"-"*30:<10}")
                 print("\n")
 
             if quit_loop == False:
@@ -319,9 +337,12 @@ def entering_the_text_input():
                 if input_choice_check == True:
                     processed_text_input.update({"text": raw_text})
                     tokens = re.findall(r'@\w+|#\w+|\w+|[^\w\s]', raw_text)
-                    processing_the_input(tokens,time_stamp)
+                    processing_the_input(tokens, time_stamp)
         except ValueError:
+            print(f"{"-"*30:<10}")
             print("Invalid choice")
+            print(f"{"-"*30:<10}")
+            print("\n")
 
 
 def entering_username():
@@ -331,7 +352,7 @@ def entering_username():
         username_exist = False
         username = input("Enter your username(quit to exit): ")
         if username != "quit" and username != "Quit" and username != "QUIT":
-            for key,values in usernames.items():
+            for key, values in usernames.items():
                 if values == username:
                     processed_text_input.update({"user_id": key})
                     processed_text_input.update({"username": values})
@@ -339,14 +360,18 @@ def entering_username():
                     break
             if username_exist == True:
                 print("\n")
-                print("username has been matched")
+                print(f"{"-"*30:<10}")
+                print("Username has been matched")
+                print(f"{"-"*30:<10}")
                 print("\n")
                 entering_the_text_input()
                 break
             if username_exist == False:
                 print("\n")
-                print("username does not exist")
-                print("Try Again")
+                print(f"{"-"*30:<10}")
+                print("Username does not exist")
+                print("Try again")
+                print(f"{"-"*30:<10}")
                 print("\n")
         else:
             username_exist = False
@@ -354,10 +379,13 @@ def entering_username():
 
 
 print("\n")
+print(f"{"="*30:^30}")
+print(f"{"SOCIAL POST ENTRY SYSTEM":^30}")
+print(f"{"="*30:^30}")
 entering_username()
 
 print("\n")
-closing_the_log_files("files_log.JSON",files_log)
+closing_the_log_files("files_log.JSON", files_log)
 
 print("\n")
-closing_the_log_files("social_posts_catalog_backup.JSON",social_posts_catalog_backup)
+closing_the_log_files("social_posts_catalog_backup.JSON", social_posts_catalog_backup)

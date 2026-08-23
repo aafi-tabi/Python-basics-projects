@@ -59,7 +59,10 @@ class User:
         self.name = name
         self._age = age
         self.username = username
-        self.__password  = users[self.id][self.username]
+        if users:
+            self.__password = users[self.id][self.username]
+        else:
+            self.__password = None
         self.dob = dob
         print("loading a data")
 
@@ -104,7 +107,7 @@ def old_user_password(username):
         correct_old_password = True
 
         if(correct_old_password == True):
-            correct_old_password = User.check_password(password)
+            correct_old_password = u.check_password(password)
 
     age_of_user()
     closing_the_log_files(user_profiles,"user_profiles.JSON")

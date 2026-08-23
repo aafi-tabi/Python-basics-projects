@@ -64,8 +64,6 @@ if len(logs) > 0:
     keywords_count_index = keywords_count.index(keyword_count_max)
     max_appeared_habit = keywords[keywords_count_index]
 
-
-
     print("=" * 15)
     print("Daily Report")
     print("=" * 15)

@@ -2046,14 +2046,14 @@ print("\n")
 users_logs_file = accessing_the_log_files("users_logs_file.JSON")
 print("\n")      
         
-def entering_the_data(data,filename,entry):
+def entering_the_data(data, filename, entry):
     global staff_logs_file
     try:
-        with open(filename,"w",encoding="utf-8") as file:
-            json.dump(data,file, indent=4, ensure_ascii=False)
-    except FileExistsError:
-        message = f"\"{filename}\" already exists"
-        print(f"\"{filename}\" already exists")
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+    except OSError:
+        message = f"\"{filename}\" could not be saved"
+        print(f"\"{filename}\" could not be saved")
     except TypeError:
         message = f"""\"{filename}\" corrupted
         \"{filename}\" not in JSON format"""
@@ -2065,17 +2065,16 @@ def entering_the_data(data,filename,entry):
     finally:
         time_stamp = datetime.now().strftime("%d %H:%M:%S")
         id = len(staff_logs_file) + 1
-        if(entry == True):
-            staff_logs_file.update({id:{"staff_id": id,
+        if (entry == True):
+            staff_logs_file.update({id: {"staff_id": id,
                                         "file_name": f"{filename}",
                                         "time_stamp": time_stamp,
                                         "message": message}})
         else:
-            staff_logs_file.update({id:{"staff_id": 00,
+            staff_logs_file.update({id: {"staff_id": 00,
                                         "file_name": f"{filename}",
                                         "time_stamp": time_stamp,
                                         "message": message}})
-
         
 def accessing_the_user_data(filename,u_id,staff):
     global staff_logs_file
@@ -2108,10 +2107,14 @@ def accessing_the_user_data(filename,u_id,staff):
                                         "message": message}}) 
     return data
 
-def closing_the_log_files(data,filename):
-    with open(filename,"w",encoding="utf-8") as file:
-        json.dump(data, file, indent=4, ensure_ascii=False)
-        message = f"\"{filename}\" saved successfully"
+
+def closing_the_log_files(data, filename):
+    try:
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+    except OSError:
+        print(f"\"{filename}\" could not be saved")
+    else:
         print(f"\"{filename}\" saved successfully")
     
 

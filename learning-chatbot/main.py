@@ -42,65 +42,68 @@ while prompt != ["quit"] and prompt != ["exit"]:
                 break
             
         if command_found == True:
-            for j in prompt:
-                if j == "full" or j == "conversation":
-                    print("=" * 15)
-                    print("YOUR CONVERSATION HISTORY")
-                    print("=" * 15)
-                    message_counter += 3
-                    for k in conversation_history:
-                        print(" ".join(k))
-                        message_counter += 1
-                    print("---")
-                    print("Full conversation history has been ended")
-                    print("\n")
-                    command_understand = True
-                    break
+            if command_understand == False:
+                for j in prompt:
+                    if j == "full" or j == "conversation":
+                        print("=" * 15)
+                        print("YOUR CONVERSATION HISTORY")
+                        print("=" * 15)
+                        message_counter += 3
+                        for k in conversation_history:
+                            print(" ".join(k))
+                            message_counter += 1
+                        print("---")
+                        print("Full conversation history has been ended")
+                        print("\n")
+                        command_understand = True
+                        break
 
-            for j in prompt:
-                if j == "last" or j == "few" or j == "exchanges":
-                    print("=" * 15)
-                    print("LAST FEW CONVERSATIONS")
-                    print("=" * 15)
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append("LAST FEW CONVERSATIONS".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    message_counter += 3
-                    for i in conversation_history[-7:]:
-                        print(" ".join(i))
-                        message_counter += 1
-                    print("These were your few last conversations")
-                    print("\n")
-                    command_understand = True
-                    break
+            if command_understand == False:
+                for j in prompt:
+                    if j == "last" or j == "few" or j == "exchanges":
+                        print("=" * 15)
+                        print("LAST FEW CONVERSATIONS")
+                        print("=" * 15)
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append("LAST FEW CONVERSATIONS".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        message_counter += 3
+                        for i in conversation_history[-7:]:
+                            print(" ".join(i))
+                            message_counter += 1
+                        print("These were your few last conversations")
+                        print("\n")
+                        command_understand = True
+                        break
 
-            for j in prompt:
-                if j == "current" or j == "size" or j == "bot's" or  j == "knowledge":
-                    print("=" * 15)
-                    print(f"SIZE OF BOT KNOWLEDGE: {len(bot_knowledge)}")
-                    print("=" * 15)
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append(f"SIZE OF BOT KNOWLEDGE: {len(bot_knowledge)}".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    print("\n")
-                    message_counter += 3
-                    command_understand = True
-                    break
+            if command_understand == False:
+                for j in prompt:
+                    if j == "current" or j == "size" or j == "bot's" or  j == "knowledge":
+                        print("=" * 15)
+                        print(f"SIZE OF BOT KNOWLEDGE: {len(bot_knowledge)}")
+                        print("=" * 15)
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append(f"SIZE OF BOT KNOWLEDGE: {len(bot_knowledge)}".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        print("\n")
+                        message_counter += 3
+                        command_understand = True
+                        break
 
-            for j in prompt:
-                if j == "longest" or j == "message":
-                    sorted_conversation_histroy = sorted(conversation_history, key=len)
-                    print("=" * 15)
-                    print(f"LONGEST CONVERSATION: {" ".join(sorted_conversation_histroy[-1]).title()}")
-                    print("=" * 15)
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append(f"LONGEST CONVERSATION: {" ".join(sorted_conversation_histroy[-1]).title()}".lower().strip().replace("!","").replace(":","").split())
-                    conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
-                    print("\n")
-                    message_counter += 3
-                    command_understand = True
-                    
-                    break
+            if command_understand == False:
+                for j in prompt:
+                    if j == "longest" or j == "message":
+                        sorted_conversation_histroy = sorted(conversation_history, key=len)
+                        print("=" * 15)
+                        print(f"LONGEST CONVERSATION: {" ".join(sorted_conversation_histroy[-1]).title()}")
+                        print("=" * 15)
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append(f"LONGEST CONVERSATION: {" ".join(sorted_conversation_histroy[-1]).title()}".lower().strip().replace("!","").replace(":","").split())
+                        conversation_history.append(f"{"=" * 15}".lower().strip().replace("!","").replace(":","").split())
+                        print("\n")
+                        message_counter += 3
+                        command_understand = True
+                        break
             
 
             if command_understand == False:
@@ -201,7 +204,6 @@ performance_score = (understood_messages * 100)/message_counter
 after_length_of_bot_knowledge = len(bot_knowledge)
 improve_in_length_of_bot = after_length_of_bot_knowledge - before_length_of_bot_knowledge
 bot_knowledge_growth = (improve_in_length_of_bot * 100)/after_length_of_bot_knowledge
-before_length_of_bot_knowledge = after_length_of_bot_knowledge
 
 
 print("\n")
@@ -222,7 +224,7 @@ print("\n")
 print("-" * 12)
 print("Final knowledge base:")
 print("-" * 12)
-for index,knowledge in bot_knowledge:
-    print(f"{index}, {knowledge}")
+for index, (topic, knowledge) in enumerate(bot_knowledge, start=1):
+    print(f"{index}. {topic}: {knowledge}")
 print("-" * 7)
 print("\n")

@@ -203,12 +203,10 @@ while user_status_choice != True:
 
             password = new_password
             name = "".join(new_username)
+            user_info_database.update({"".join(new_username) : new_password})
 
         else:
             user_status_choice = False
-
-user_info_database.update({"".join(new_username) : new_password})
-
     
 if name in user_info_database.keys() and password in user_info_database.values():
 

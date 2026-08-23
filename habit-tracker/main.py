@@ -8,19 +8,8 @@ user_entry = "daily"
 
 def text_refine(text):
     return text.lower().strip().replace(",","").replace("!","").split()
-
-def count_matched():
-    found_keywords = []
-    for i in keywords:
-        for j in user_entry:
-            if(i == j):
-                found_keywords.append(i)
-                count += 1
     
-    daily_habit_counts.append(count)
-    found_keyword_text = ",".join(found_keywords)
-
-
+    
 while user_entry != ["quit"]:
 
     count  = 0

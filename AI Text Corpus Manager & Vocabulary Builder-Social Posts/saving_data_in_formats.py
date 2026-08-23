@@ -26,14 +26,16 @@ def accessing_the_data(file_name,log_file):
     except FileNotFoundError:
         message = f"{file_name} not found"
         print(f"{file_name} not found")
+        data = {}
     except json.JSONDecodeError:
         message = "Data corrupted"
         print("Data corrupted")
+        data = {}
     else:
         message = f"{file_name} loaded successfully"
         print(f"{file_name} loaded successfully")
     finally:
-        time_stamp = datetime.now().strftime('%D %H:%M:%S')
+        time_stamp = datetime.now().strftime('%d %H:%M:%S')
         id = int(len(log_file) + 1)
         log_file.update({id:
                             {"file_name": file_name,

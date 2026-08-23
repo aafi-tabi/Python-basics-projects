@@ -414,7 +414,7 @@ negative_review_words = {
 }
 
 def movie_review_classification():
-    for key,values in movies_catalog.items():
+    for key, values in movies_catalog.items():
         pos_review = neg_review = False
         for i in values["review"].strip().split():
             for j in positive_review_words:
@@ -431,28 +431,25 @@ def movie_review_classification():
             values.update({"review_classification": "Pos"})
         else:
             values.update({"review_classification": "Neutral"})
-
-
-
+            
 movie_review_classification()
 
 try:
-    with open("movies_catalog.json","w") as file:
-        json.dump(movies_catalog,file, indent=4, ensure_ascii=False)
-except FileExistsError:
+    with open("movies_catalog.json", "w") as file:
+        json.dump(movies_catalog, file, indent=4, ensure_ascii=False)
+except OSError:
     print("\n")
-    print("\"movies_catalog.json\" already exists")
+    print("Could not save \"movies_catalog.json\"")
 else:
     print("\n")
     print("\"movies_catalog.json\" saved successfully")
 
-
 try:
-    with open("movies_genres.JSON","w") as file:
+    with open("movies_genres.json", "w") as file:
         json.dump(genres, file, indent=4)
-except FileExistsError:
+except OSError:
     print("\n")
-    print("\"movies_genres.JSON\" already exist")
+    print("Could not save \"movies_genres.json\"")
 else:
     print("\n")
-    print("\"movies_genres.JSON\" saved successfully")
+    print("\"movies_genres.json\" saved successfully")

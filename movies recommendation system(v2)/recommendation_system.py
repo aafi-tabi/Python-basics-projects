@@ -2,7 +2,7 @@ import json
 import time
 
 try:
-    with open("movies_catalog.JSON","r") as file:
+    with open("movies_catalog.json","r") as file:::
         movies_catalog = json.load(file)
 except FileNotFoundError:
     print("\"movies_catalog.JSON\" not found")

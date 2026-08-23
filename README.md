@@ -30,9 +30,9 @@ A recommendation engine built on a curated catalog of nearly 60 films, complete 
 | Project | Description | Key Concepts |
 |---|---|---|
 | [Mini Recommendation Engine (Movies)](./Mini%20Recommendation%20Engine%20(Movies).py) | A genre-based movie recommender with login/signup and an interactive accept/reject recommendation flow. | Data structures, filtering & ranking logic |
-| [Learning Chatbot (Rule-Based AI)](./Build%20a%20Learning%20Chatbot%20(Rule-Based%20AI).py) | A chatbot that starts with a small knowledge base and grows it dynamically as users teach it new topics during conversation. | Conditional logic, adaptive session state |
-| [AI Prompt Cost & Token Estimator](./AI%20Prompt%20Cost%20%26%20Token%20Estimator%20(CLI).py) | A budgeting tool that estimates token usage and API cost per prompt, with full usage history and receipts. | CLI design, cost modeling |
-| [Habit Tracker & Text Analyzer](./Habit%20Tracker%20%26%20Text%20Analyzer%20(CLI).py) | Logs daily activity and analyzes entries against tracked habits, generating personalized frequency reports. | File I/O, data aggregation |
+| [Learning Chatbot (Rule-Based AI)](./learning-chatbot/main.py) | A chatbot that starts with a small knowledge base and grows it dynamically as users teach it new topics during conversation. | Conditional logic, adaptive session state |
+| [AI Prompt Cost & Token Estimator](./ai-prompt-cost-estimator/main.py) | A budgeting tool that estimates token usage and API cost per prompt, with full usage history and receipts. | CLI design, cost modeling |
+| [Habit Tracker & Text Analyzer](./habit-tracker/main.py) | Logs daily activity and analyzes entries against tracked habits, generating personalized frequency reports. | File I/O, data aggregation |
 
 ## Skills Demonstrated
 
@@ -55,7 +55,8 @@ python3 recommendation_system.py
 Single-file projects run directly:
 
 ```bash
-python3 "AI Prompt Cost & Token Estimator (CLI).py"
+cd ai-prompt-cost-estimator
+python3 main.py
 ```
 
 Some projects use the `emoji` package:

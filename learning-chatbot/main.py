@@ -89,7 +89,7 @@ while prompt != ["quit"] and prompt != ["exit"]:
 
             for j in prompt:
                 if j == "longest" or j == "message":
-                    sorted_conversation_histroy = sorted(conversation_history)
+                    sorted_conversation_histroy = sorted(conversation_history, key=len)
                     print("=" * 15)
                     print(f"LONGEST CONVERSATION: {" ".join(sorted_conversation_histroy[-1]).title()}")
                     print("=" * 15)

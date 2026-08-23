@@ -34,14 +34,16 @@ def accessing_the_data(file_name,log_file):
     except FileNotFoundError:
         message = f"{file_name} not found"
         print(f"{file_name} not found")
+        data = {}
     except json.JSONDecodeError:
         message = "Data corrupted"
         print("Data corrupted")
+         data = {}
     else:
         message = f"{file_name} loaded successfully"
         print(f"{file_name} loaded successfully")
     finally:
-        time_stamp = datetime.now().strftime('%D %H:%M:%S')
+        time_stamp = datetime.now().strftime('%d %H:%M:%S')
         id = int(len(log_file) + 1)
         log_file.update({id:
                             {"file_name": file_name,
@@ -297,11 +299,11 @@ def entering_the_text_input():
             input_choice = int(input("Enter your choice(0 to exit): "))
             if input_choice == 1:
                 raw_text = input("Enter a post text: ")
-                time_stamp = datetime.now().strftime('%Y-%m-%D %H:%M:%S')
+                time_stamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 input_choice_check = True
             elif input_choice == 2:
                 raw_text = input("Enter a content text: ")
-                time_stamp = datetime.now().strftime('%Y-%m-%D %H:%M:%S')
+                time_stamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
                 input_choice_check = True
             elif input_choice == 0:
                 quit_loop = True

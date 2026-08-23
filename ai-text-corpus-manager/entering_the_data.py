@@ -1260,7 +1260,7 @@ topic_words = {
 
 def accessing_the_logs_files(file_name):
     try:
-        with open(file_name,"r") as file:
+        with open(file_name, "r") as file:
             data = json.load(file)
     except FileNotFoundError:
         print(f"{file_name} not found")
@@ -1274,16 +1274,13 @@ def accessing_the_logs_files(file_name):
     return data
 
 
-def data_saving(file_name,data,log_file):
+def data_saving(file_name, data, log_file):
     global files_log
     global social_posts_catalog_backup
     global message
     try:
-        with open(file_name,"w",encoding="utf-8") as file:
+        with open(file_name, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
-    except FileExistsError:
-        message = f"\"{file_name}\" already exists" 
-        print(f"\"{file_name}\" already exists")
     except TypeError:
         message = f"\"{file_name}\" is not in a JSON format"
         print(f"\"{file_name}\" is not in a JSON format")
@@ -1292,15 +1289,16 @@ def data_saving(file_name,data,log_file):
         print(f"\"{file_name}\" saved successfully")
     finally:
         time_stamp = datetime.now().strftime('%d %H:%M:%S')
-        id = int(len(log_file) + 1)
-        log_file.update({id:
+        log_id = int(len(log_file) + 1)
+        log_file.update({log_id:
                             {"file_name": file_name,
                             "time_stamp": time_stamp,
                             "message": message}})
 
-def closing_the_log_files(file_name,data):
+
+def closing_the_log_files(file_name, data):
     try:
-        with open(file_name,"w") as file:
+        with open(file_name, "w") as file:
             json.dump(data, file, indent=4, ensure_ascii=False)
     except PermissionError:
         print(f"Permission for the {file_name} not granted")
@@ -1309,30 +1307,30 @@ def closing_the_log_files(file_name,data):
     else:
         print(f"{file_name} saved successfully")
 
-if __name__ == "__main__":         
-    print("\n")
-    accessing_the_logs_files("files_log.JSON")
-
-    print("\n")
-    data_saving("positive_words.JSON",positive_words,files_log)
-
-    print("\n")
-    data_saving("negative_words.JSON",negative_words,files_log)
-
-    print("\n")
-    data_saving("usernames.JSON",usernames,files_log)
-
-    print("\n")
-    data_saving("topic_words.JSON",topic_words,files_log)
-
+if __name__ == "__main__":
     print("\n")
     files_log = accessing_the_logs_files("files_log.JSON")
+
+    print("\n")
+    data_saving("positive_words.JSON", positive_words, files_log)
+
+    print("\n")
+    data_saving("negative_words.JSON", negative_words, files_log)
+
+    print("\n")
+    data_saving("usernames.JSON", usernames, files_log)
+
+    print("\n")
+    data_saving("topic_words.JSON", topic_words, files_log)
 
     print("\n")
     social_posts_catalog_backup = accessing_the_logs_files("social_posts_catalog_backup.JSON")
 
     print("\n")
-    data_saving("social_posts_catalog.JSON",social_posts_catalog,social_posts_catalog_backup)
+    data_saving("social_posts_catalog.JSON", social_posts_catalog, social_posts_catalog_backup)
 
     print("\n")
-    closing_the_log_files("social_posts_catalog_backup.JSON",social_posts_catalog_backup)
+    closing_the_log_files("files_log.JSON", files_log)
+
+    print("\n")
+    closing_the_log_files("social_posts_catalog_backup.JSON", social_posts_catalog_backup)

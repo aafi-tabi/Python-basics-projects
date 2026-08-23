@@ -9,21 +9,21 @@ A multi-user journaling application with account creation, secure login, and per
 
 **Highlights:** Object-oriented design, custom exception handling, user authentication, JSON-backed data persistence, CRUD functionality.
 
-[View Project →](./MindTrack%20AI%20Journal%20and%20Mood%20Insights%20CLI)
+[View Project →](./mindtrack-journal-cli)
 
 ### 📊 AI Text Corpus Manager & Vocabulary Builder
 A social-media text analysis pipeline that processes posts in real time — detecting hashtags, mentions, and emojis, classifying sentiment, and identifying topics through keyword and bigram analysis. Builds a full word-frequency corpus and exports structured data to multiple formats.
 
 **Highlights:** Tokenization, rule-based NLP, sentiment classification, bigram analysis, multi-format data export (JSON/CSV).
 
-[View Project →](./AI%20Text%20Corpus%20Manager%20%26%20Vocabulary%20Builder-Social%20Posts)
+[View Project →](./ai-text-corpus-manager)
 
 ### 🎬 Movies Recommendation System (v2)
 A recommendation engine built on a curated catalog of nearly 60 films, complete with genre tagging, ratings, and auto-classified reviews. Offers genre-based recommendations, search, live rating/review updates, and detailed usage analytics — all through a polished menu-driven interface.
 
 **Highlights:** Data modeling, ranking algorithms, sentiment classification, interactive CLI design.
 
-[View Project →](./movies%20recommendation%20system(v2))
+[View Project →](./movie-recommender-v2)
 
 ## Additional Projects
 
@@ -46,9 +46,9 @@ A recommendation engine built on a curated catalog of nearly 60 films, complete 
 
 Each project can be run directly with Python 3.
 
-**Multi-file projects** should be run from within their own directory:
+**Movies Recommendation System (v2):**
 ```bash
-cd "movies recommendation system(v2)"
+cd movie-recommender-v2
 python3 save_the_movies_data.py
 python3 recommendation_system.py
 ```

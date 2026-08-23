@@ -2039,8 +2039,8 @@ def accessing_the_log_files(filename):
     else:
         message = f"\"{filename}\" loaded successfully"
         print(f"\"{filename}\" loaded successfully")
-        return data
-
+    return data
+    
 staff_logs_file = accessing_the_log_files("staff_logs_file.JSON")
 print("\n")
 users_logs_file = accessing_the_log_files("users_logs_file.JSON")
@@ -2063,7 +2063,7 @@ def entering_the_data(data,filename,entry):
         message = f"\"{filename}\" saved successfully"
         print(f"\"{filename}\" saved successfully")
     finally:
-        time_stamp = datetime.now().strftime("%D %H:%M:%S")
+        time_stamp = datetime.now().strftime("%d %H:%M:%S")
         id = len(staff_logs_file) + 1
         if(entry == True):
             staff_logs_file.update({id:{"staff_id": id,
@@ -2093,7 +2093,7 @@ def accessing_the_user_data(filename,u_id,staff):
     else:
         message = f"\"{filename}\" loaded successfully"
     finally:
-        time_stamp = datetime.now().strftime("%D %H:%M:%S")
+        time_stamp = datetime.now().strftime("%d %H:%M:%S")
         if(staff == True):
             id = len(staff_logs_file) + 1
             staff_logs_file.update({id:{"staff_id":u_id,

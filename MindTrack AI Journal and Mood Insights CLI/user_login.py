@@ -135,7 +135,7 @@ def old_username():
                 correct_old_username = False
                 for  key, value in values.items():
                     if key == username:
-                        u.id = keys
+                        u.id = int(keys)
                         print("Username matched successfully")
                         print("\n")
                         u.username = username
@@ -201,7 +201,7 @@ def getting_a_new_user_DOB(name,update_dob):
                     journal_entries.update({u.id:{}})
                     journal_entries = closing_the_log_files(journal_entries,"journal_entries.JSON")
 
-                dob = datetime.strftime(dob, "%Y-%m-%D")
+                dob = datetime.strftime(dob, "%Y-%m-%d")
                 user_profiles.update({u.id:{"name": name,
                                             "signup_datetime": time_stamp,
                                             "date_of_birth": dob}})
@@ -237,6 +237,7 @@ def getting_a_new_user_name(update_name):
 
 def new_user_password(new_username,update_password,entering_password):
     global time_stamp
+    global users
     if entering_password == True:
         if(update_password == False):
             password = input("Enter a password: ")
@@ -290,7 +291,7 @@ def new_username(update_username):
         users = accessing_the_user_data("users.JSON",00,False)
         if correct_new_username == True:
             for key,values in users.items():
-                if username == key:
+                if username in values:
                     correct_new_username = False
                     print("Username already exists")
                     print("Enter again")

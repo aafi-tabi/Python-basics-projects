@@ -1,5 +1,5 @@
 from entering_the_data import accessing_the_log_files,accessing_the_user_data,closing_the_log_files
-from user_login import user_confirmation,old_username,new_username,InvalidData,check_data,InvalidInput,check_user_input,getting_a_new_user_name,getting_a_new_user_DOB,new_user_password,users_logs_file,staff_logs_file,User,user
+from user_login import user_confirmation,old_username,new_username,InvalidData,check_data,InvalidInput,check_user_input,getting_a_new_user_name,getting_a_new_user_DOB,new_user_password,users_logs_file,staff_logs_file,User,u
 import json
 from datetime import datetime
 import sys
@@ -17,12 +17,12 @@ user_choice = user_confirmation()
 
 if(user_choice == "y"):
     new_username(False)
-    id,username,password,name,age,dob = User.get_data()
+    id,username,password,name,age,dob = u.get_data()
     print(f"{f"""Welcome, {name}
     How are you feeling today?""":^10}")
 else:
     old_username()
-    id,username,password,name,age,dob = User.get_data()
+    id,username,password,name,age,dob = u.get_data()
     print(f"{f"""Welcome back, {name}
     How are you feeling today?""":^10}")
 
@@ -100,7 +100,7 @@ def new_journal_entry():
     print("NEW JOURNAL ENTRY")
     todays_journal_entry_title = input("Enter a title of today's journal entry: ").strip()
     time_stamp = datetime.now().strftime("%H:%M:%S")
-    date  = datetime.now().strftime("%Y-%m-%D")
+    date  = datetime.now().strftime("%Y-%m-%d")
     print(f"Date: {date}")
     print(f"Time: {time_stamp}")
     todays_journal_entry = input("what's on your mind?\n").strip()

@@ -1264,8 +1264,10 @@ def accessing_the_logs_files(file_name):
             data = json.load(file)
     except FileNotFoundError:
         print(f"{file_name} not found")
+        data = {}
     except json.JSONDecodeError:
         print("Data corrupted")
+        data = {}
     else:
         print(f"{file_name} loaded successfully")
 
@@ -1289,7 +1291,7 @@ def data_saving(file_name,data,log_file):
         message = f"\"{file_name}\" saved successfully"
         print(f"\"{file_name}\" saved successfully")
     finally:
-        time_stamp = datetime.now().strftime('%D %H:%M:%S')
+        time_stamp = datetime.now().strftime('%d %H:%M:%S')
         id = int(len(log_file) + 1)
         log_file.update({id:
                             {"file_name": file_name,

@@ -48,7 +48,7 @@ def mood_analysis_():
 
     for keys,values in mood_analysis.items():
         mood_id = keys.split("_")
-        if id == mood_id[0]:
+        if str(id) == mood_id[0]:
             user_mood_history.update({keys: values})
             count += 1
             mood_score_sum += values["mood_score"]
@@ -204,7 +204,7 @@ def mood_history():
     user_mood_history = dict()
     for keys,values in mood_analysis.items():
         mood_id = keys.split("_")
-        if id == mood_id[0]:
+        if str(id) == mood_id[0]:
             user_mood_history.update({keys: values})
 
     for key,values in user_mood_history.items():
@@ -214,7 +214,7 @@ def mood_history():
 
 def member_since():
     for key,values in user_profiles.items():
-        if id  ==  key:
+         if str(id)  ==  key:
             return values["signup_datetime"]
     main_menu()
 

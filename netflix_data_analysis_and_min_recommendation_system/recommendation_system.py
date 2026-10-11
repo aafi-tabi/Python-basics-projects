@@ -22,6 +22,17 @@ def loading():
         time.sleep(0.5)
     print("\n")
 
+# NEW: ranks titles by how many genres they share with the target (most shared first)
+def rank_by_shared_genres(target, catalog):
+    scored = []
+    for item in catalog:
+        if item.title != target.title:
+            shared = len(set(target.listed_in).intersection(set(item.listed_in)))
+            if shared >= 1:
+                scored.append((shared, item))
+    scored.sort(key=lambda pair: pair[0], reverse=True)
+    return [item for shared, item in scored]
+
 def recommendation_choice():
     user_choice = False
     while(user_choice != True):
@@ -132,7 +143,8 @@ def searchByKeyword():
     keyword_input = input("Enter a keyword: ").strip().lower()
     loading()
     for media in media_catalog:
-        if keyword_input in (word.lower() for word in media.description_list):
+        # CHANGED: punctuation is stripped from each word, so "love." now matches "love"
+        if keyword_input in (word.lower().strip(".,!?;:'\"()") for word in media.description_list):
             keyword_found = True
             media.showDetails()
             addToWatchlist(media)
@@ -201,68 +213,60 @@ def searchAMedia():
     print(f"{"SEARCH A MEDIA":^30}")
     print(f"{"="*30:^30}")
 
-    movie_genres_set = set()
     target = None
     found = False
     media_input = media_choice()
     if media_input == 1:
-        movie_input = input("Enter a movie name: ").title().strip()
+        # CHANGED: both sides are compared in lowercase, so titles like "WALL-E" now match
+        movie_input = input("Enter a movie name: ").lower().strip()
         loading()
         for movie in movie_catalog:
-            if movie.title == movie_input:
+            if movie.title.lower() == movie_input:
                 movie.showDetails()
                 found = True
                 target = movie
                 break
         if found == True:
-            for movie in movie_catalog:
-                if movie.title != target.title:
-                    movie_genres_set = set(target.listed_in).intersection(set(movie.listed_in))
-                    if len(movie_genres_set) >= 1:
-                        if movie not in movie_recommendations:
-                            movie_recommendations.append(movie)
+            # CHANGED: recommendations are ranked by number of shared genres
+            for movie in rank_by_shared_genres(target, movie_catalog):
+                if movie not in movie_recommendations:
+                    movie_recommendations.append(movie)
         if found == False:
             print(f"{"-"*30:<10}")
             print("Movie not found")
             print(f"{"-"*30:<10}")
 
     elif media_input == 2:
-        tvShow_input = input("Enter a TV Show name: ").title().strip()
+        tvShow_input = input("Enter a TV Show name: ").lower().strip()
         loading()
         for tvshow in tvShow_catalog:
-            if tvshow.title == tvShow_input:
+            if tvshow.title.lower() == tvShow_input:
                 tvshow.showDetails()
                 found = True
                 target = tvshow
                 break
         if found == True:
-            for tvshow in tvShow_catalog:
-                if tvshow.title != target.title:
-                    tvshow_genres_set = set(target.listed_in).intersection(set(tvshow.listed_in))
-                    if len(tvshow_genres_set) >= 1:
-                        if tvshow not in tvshow_recommendations:
-                            tvshow_recommendations.append(tvshow)
+            for tvshow in rank_by_shared_genres(target, tvShow_catalog):
+                if tvshow not in tvshow_recommendations:
+                    tvshow_recommendations.append(tvshow)
         if found == False:
             print(f"{"-"*30:<10}")
             print("TV Show not found")
             print(f"{"-"*30:<10}")
 
     else:
-        media_input = input("Enter a media name: ").title().strip()
+        media_input = input("Enter a media name: ").lower().strip()
         loading()
         for media in media_catalog:
-            if media.title == media_input:
+            if media.title.lower() == media_input:
                 media.showDetails()
                 found = True
                 target = media
                 break
         if found == True:
-            for media in media_catalog:
-                if media.title != target.title:
-                    media_genres_set = set(target.listed_in).intersection(set(media.listed_in))
-                    if len(media_genres_set) >= 1:
-                        if media not in media_recommendations:
-                            media_recommendations.append(media)
+            for media in rank_by_shared_genres(target, media_catalog):
+                if media not in media_recommendations:
+                    media_recommendations.append(media)
         if found == False:
             print(f"{"-"*30:<10}")
             print("Media not found")

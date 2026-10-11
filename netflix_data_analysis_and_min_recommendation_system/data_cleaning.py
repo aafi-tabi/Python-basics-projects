@@ -86,7 +86,9 @@ def data_info():
     print(f"{"="*35:^35}")
     print(f"First 5 rows of file: {netflix_data.head()}")
     print(f"{"-"*35:<10}")
-    print(f"Info about the file: {netflix_data.info()}")
+    # CHANGED: info() prints by itself, so it is called on its own line (before it printed "None")
+    print("Info about the file:")
+    netflix_data.info()
     print(f"{"-"*35:<10}")
 
     print(f"Shape of Date: {netflix_data.shape}")
@@ -106,15 +108,17 @@ def data_cleaning():
     netflix_data.dropna(subset="rating", inplace=True)
     netflix_data.dropna(subset="duration", inplace=True)
 
-    print(f"{"="*35:^35}")
-    print(f"{"DATA CLEANING":^35}")
-    print(f"{"="*35:^35}")
-    print(f"""Info about the NULL values after cleaning: 
-    {netflix_data.isnull().sum()}""")
-    print(f"{"-"*35:<10}")
+    # CHANGED: the report only prints when this file is run directly, not when it is imported
+    if __name__ == "__main__":
+        print(f"{"="*35:^35}")
+        print(f"{"DATA CLEANING":^35}")
+        print(f"{"="*35:^35}")
+        print(f"""Info about the NULL values after cleaning: 
+        {netflix_data.isnull().sum()}""")
+        print(f"{"-"*35:<10}")
 
-    print(f"Shape of a Data after cleaning: {netflix_data.shape}")
-    print(f"{"-"*35:<10}")
+        print(f"Shape of a Data after cleaning: {netflix_data.shape}")
+        print(f"{"-"*35:<10}")
 
 def min_categorize(type_list):
     if type_list[1] == "min":
@@ -145,7 +149,8 @@ def new_columns():
     netflix_data["month_added"] = netflix_data["date_added"].dt.month_name()
     netflix_data["day_added"] = netflix_data["date_added"].dt.day
     netflix_data["year_added"] = netflix_data["date_added"].dt.year
-    netflix_data["years_between_release_and_added"] = netflix_data["release_year"] - netflix_data["year_added"]
+    # CHANGED: order flipped (year_added - release_year) so the gap is positive
+    netflix_data["years_between_release_and_added"] = netflix_data["year_added"] - netflix_data["release_year"]
     netflix_data["primary_country"] = netflix_data["country"].str[0]
 
 def duration_spliting():
@@ -212,7 +217,8 @@ def organizing_categorical_columns():
 {temp_netflix_data.groupby("release_year")["mins_duration"].mean()}""")
     print(f"{"-"*35:<10}")
 
-def satistical_analysis():
+# CHANGED: renamed from satistical_analysis (spelling)
+def statistical_analysis():
     print(f"{"="*35:^35}")
     print(f"{"STATISTICAL ANALYSIS":^35}")
     print(f"{"="*35:^35}")
@@ -275,7 +281,9 @@ def genres_organizing(listed_in, media, genres_catalog):
             media_genres[genre] = [media]
 
 data_cleaning()
-data_info()
+# CHANGED: data info only prints when this file is run directly
+if __name__ == "__main__":
+    data_info()
 converting_to_datetime()
 data_splitting()
 new_columns()
@@ -313,9 +321,12 @@ def category_check():
     print(f"Number of TVShows: {len(tvShow_catalog)}")
     print(f"{"-"*35:<10}")
 
-organizing_categorical_columns()
-satistical_analysis()
-categorical_features()
-category_check()
+# CHANGED: the reports and the CSV export only run when this file is run directly,
+# so importing it from the main file no longer prints pages of output before the menu
+if __name__ == "__main__":
+    organizing_categorical_columns()
+    statistical_analysis()
+    categorical_features()
+    category_check()
 
-netflix_data.to_csv("netflix_cleaned_final.CSV")
+    netflix_data.to_csv("netflix_cleaned_final.CSV")

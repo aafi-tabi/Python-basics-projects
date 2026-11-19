@@ -1,5 +1,7 @@
 # Python Mini Projects
 
+> 💻 **Every project in this repository was written by me, from scratch.** AI was used only to help polish this README.
+> 
 A portfolio of Python applications built from the ground up, spanning CLI tools, rule-based AI, data analysis, recommendation systems, and full applications with login and data persistence. Each project focuses on solving a concrete problem with clean logic and thoughtful design.
 
 ## Featured Projects
